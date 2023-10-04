@@ -1,0 +1,23 @@
+[date]
+4 October 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/llvm/llvm-project 7e856d18943f637b8c83f0bf8cbb506c5f7e94af)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/7e856d18
+
+[llvm-commit-msg]
+Reland "[clang-format] Annotate ctors/dtors as CtorDtorDeclName instead (#67955)"
+
+[binutils-ver]
+2.38
+
+[host-glibc]
+2.35
+
+[size]
+187M
+
+[shasum]
+89cff7fb5ea48d84a5b94b545c130d20ceaecdfcb2897c0f9ee73b1c94bc3f77
