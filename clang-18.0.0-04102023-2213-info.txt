@@ -1,0 +1,23 @@
+[date]
+4 October 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/llvm/llvm-project ba01ce60665848478ba4e76190907153a8c26fe9)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/ba01ce60
+
+[llvm-commit-msg]
+Fix test hip-offload-compress-zlib.hip
+
+[binutils-ver]
+2.38
+
+[host-glibc]
+2.35
+
+[size]
+188M
+
+[shasum]
+810bf9ef04c7245ba8dfdc2303c38321b4d0e8cc7f2eee78c5e3c297c2b85712
