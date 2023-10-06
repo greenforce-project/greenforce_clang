@@ -12,11 +12,11 @@ mkdir -p ~/toolchains/greenforce-clang
 Then to download & extract:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/06102023/greenforce-clang-18.0.0-06102023-0831.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/06102023/greenforce-clang-18.0.0-06102023-0938.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
 
 ```
 
-You can see the major changes each week in clang-18.0.0-06102023-0831-info.txt.
+You can see the major changes each week in clang-18.0.0-06102023-0938-info.txt.
 
 ## Host compatibility
 
