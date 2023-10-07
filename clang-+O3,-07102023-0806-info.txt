@@ -1,0 +1,23 @@
+[date]
+7 October 2023
+
+[clang-ver]
+greenforce (+pgo, +polly, +O3, +native) clang version 18.0.0 (https://github.com/greenforce-project/llvm-project.git d787b6e6461e564694750a81fd5dc76d2a1c6fdc)
+
+[llvm-commit]
+https://github.com/greenforce-project/llvm-project/commit/78502251
+
+[llvm-commit-msg]
+[DWARF] Change to consistently print out abbrev code in .debug_names (#68353)
+
+[binutils-ver]
+2.38
+
+[host-glibc]
+2.35
+
+[size]
+188M
+
+[shasum]
+706a8c0cbe4bb6ffe10918b405ad599bbc266460ce2618f795f126e3f9960b2d
