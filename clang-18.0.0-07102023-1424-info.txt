@@ -1,0 +1,23 @@
+[date]
+7 October 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/greenforce-project/llvm-project.git db86431efdf25bdfd8b7fa8a443b1a210eeb7236)
+
+[llvm-commit]
+https://github.com/greenforce-project/llvm-project/commit/
+
+[llvm-commit-msg]
+
+
+[binutils-ver]
+2.38
+
+[host-glibc]
+2.35
+
+[size]
+188M
+
+[shasum]
+f43df7ffc7b45a16ac5880b327e7954d6484431235310bd363262e8afe2fb09e
