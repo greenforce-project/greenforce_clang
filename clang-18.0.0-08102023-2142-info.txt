@@ -1,0 +1,23 @@
+[date]
+8 October 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/greenforce-project/llvm-project.git f5d8d48f0908da83ad30a4dd3c942ebef44b145c)
+
+[llvm-commit]
+https://github.com/greenforce-project/llvm-project/commit/32f71977
+
+[llvm-commit-msg]
+[VP] Use the interface of getFunctionalIntrinsicID to get the non-p… (#68508)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+199M
+
+[shasum]
+695fdf010aafe1c2f9048f62d2657a2fd035ef1fff154d7c6afab22d2460a231
