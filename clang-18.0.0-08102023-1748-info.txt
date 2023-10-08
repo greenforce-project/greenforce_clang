@@ -1,0 +1,23 @@
+[date]
+8 October 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/greenforce-project/llvm-project.git dff601c63ad0f0593731608b15607d5a72f83df1)
+
+[llvm-commit]
+https://github.com/greenforce-project/llvm-project/commit/b8f70fea
+
+[llvm-commit-msg]
+[llvm] Remove "using support::endianness;" (NFC)
+
+[binutils-ver]
+2.38
+
+[host-glibc]
+2.35
+
+[size]
+188M
+
+[shasum]
+34841ba1d65b2aceb7b0613145e257777e3975582d0076612c41567aca28d518
