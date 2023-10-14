@@ -1,6 +1,10 @@
 # Greenforce Clang
 
-To get started with Greenforce Clang, you'll need to get familiar with [Building Linux with Clang/LLVM](https://docs.kernel.org/kbuild/llvm.html).
+## Host compatibility
+
+This toolchain is built on Ubuntu 22.04.3 LTS, which uses glibc 2.35. Compatibility with older distributions cannot be guaranteed. Other libc implementations (such as musl) are not supported.
+
+## Building Linux
 
 This is how you start initializing the Greenforce Clang to your server, use a command like this:
 
@@ -12,17 +16,9 @@ mkdir -p ~/toolchains/greenforce-clang
 Then to download & extract:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/09102023/greenforce-clang-18.0.0-09102023-1214.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/15102023/greenforce-clang-18.0.0-15102023-0139.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
 
 ```
-
-You can see the major changes each week in clang-18.0.0-09102023-1214-info.txt.
-
-## Host compatibility
-
-This toolchain is built on Ubuntu 22.04.3 LTS, which uses glibc 2.35. Compatibility with older distributions cannot be guaranteed. Other libc implementations (such as musl) are not supported.
-
-## Building Linux
 
 Make sure you have this toolchain in your `PATH`:
 
