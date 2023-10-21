@@ -1,0 +1,23 @@
+[date]
+22 October 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/llvm/llvm-project.git 44d4f975e4f61e69ef0e86ba618cdb3f18549fe9)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/44d4f975
+
+[llvm-commit-msg]
+[RISCV] Replace RISCV -> RISC-V in comments. NFC
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+198M
+
+[shasum]
+a2524ab5383a343db755e7fc3134a0f1d0d4e87274819049bea3b277f505b8e1
