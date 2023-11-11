@@ -1,0 +1,23 @@
+[date]
+12 November 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/llvm/llvm-project.git acb9156266206d53134e986bb4481b900bc4db75)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/acb91562
+
+[llvm-commit-msg]
+[libc++][NFC] Fix license comment typo
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+199M
+
+[shasum]
+d29d1e596522e473bada67fdb7cc855f12a1ce75faf979c2d580dc62950112cf
