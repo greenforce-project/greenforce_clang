@@ -1,0 +1,23 @@
+[date]
+19 November 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/llvm/llvm-project.git dc4786b4877d67d73d3892c45baf6811af0e6f57)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/dc4786b4
+
+[llvm-commit-msg]
+[mlir][affine] remove divide zero check when simplifer affineMap (#64622) (#68519)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+199M
+
+[shasum]
+b6720d73bc4eb2923d93b55a9275b4951110b7a082afd7e1c25282731ee1141a
