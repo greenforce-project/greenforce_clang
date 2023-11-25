@@ -1,0 +1,23 @@
+[date]
+26 November 2023
+
+[clang-ver]
+greenforce clang version 18.0.0 (https://github.com/llvm/llvm-project.git bc6b632723f8a025c7daa78c82f7d2ad1962a4e9)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/bc6b6327
+
+[llvm-commit-msg]
+[CGOpenMPRuntimeGPU] Remove no-op ptr-to-ptr bitcasts (NFC)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+200M
+
+[shasum]
+c8909f61ee4778dfee1a6e374ec44c669eca5999067f0cd6cad44f8dde1f591a
