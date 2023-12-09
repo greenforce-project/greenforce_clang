@@ -1,0 +1,23 @@
+[date]
+10 December 2023
+
+[clang-ver]
+greenforce clang version 18.0.0git (https://github.com/llvm/llvm-project.git 08cb64034f17d50a660ec78ce8ea81a025b0ba71)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/08cb6403
+
+[llvm-commit-msg]
+[NFC] Remove an unused decl to avoid warning
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+213M
+
+[shasum]
+5b75f757fca8b6f5c438b16f25ea6824f356ea4cdf0e3be976bc7f25689622f6
