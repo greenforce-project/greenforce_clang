@@ -1,0 +1,23 @@
+[date]
+18 December 2023
+
+[clang-ver]
+greenforce clang version 18.0.0git (https://github.com/llvm/llvm-project.git a34db9bdefe6d60b46f485aa1105ef6c95542e16)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/a34db9bd
+
+[llvm-commit-msg]
+[AMDGPU][NFC] Simplify needcopysign logic (#75176)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+199M
+
+[shasum]
+52c2774b3e0c8d7d62867f4492e5777f78b39ec3d0e5e78796a3b0f36de4a7b5
