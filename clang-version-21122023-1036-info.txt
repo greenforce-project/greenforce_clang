@@ -1,0 +1,23 @@
+[date]
+21 December 2023
+
+[clang-ver]
+freedom palestine clang version 18.0.0git (https://github.com/llvm/llvm-project.git b26c0ed93a1b735396f3b167ea47d82357468c96)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/b26c0ed9
+
+[llvm-commit-msg]
+[X86][NFC] Remove class BinOpRM_ImplicitUse b/c it's used once only
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+199M
+
+[shasum]
+818d41accbd6841db40bbce6efedc570c693c1204cdf8c534970bca7d3c55949
