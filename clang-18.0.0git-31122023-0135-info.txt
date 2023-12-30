@@ -1,0 +1,23 @@
+[date]
+31 December 2023
+
+[clang-ver]
+greenforce clang version 18.0.0git (https://github.com/llvm/llvm-project.git 8346e8608f5eb7ad03f2c6beacda43af563b4eae)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/8346e860
+
+[llvm-commit-msg]
+[clang] Add build type to LibASTMatchersTutorial.rst cmake (#76301)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+212M
+
+[shasum]
+97a9e113806333099247f66855306425252cddd4bf834e7cf8e3fea31c1791af

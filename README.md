@@ -13,10 +13,10 @@ This is how you start initializing the Greenforce Clang to your server, use a co
 mkdir -p ~/toolchains/greenforce-clang
 ```
 
-Then to download & extract:
+Then to download:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/26122023/greenforce-clang-12.0.1-26122023-1149.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/31122023/greenforce-clang-18.0.0git-31122023-0135.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
 
 ```
 
