@@ -1,0 +1,23 @@
+[date]
+14 January 2024
+
+[clang-ver]
+greenforce clang version 18.0.0git (https://github.com/llvm/llvm-project.git 3f21253ddd9f74d68f0b822bc2aac79b17f26787)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/3f21253d
+
+[llvm-commit-msg]
+[libc++][NFC] Release notes: fixed formatting (#78058)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+213M
+
+[shasum]
+cd6dcdef4a84ab497d0545808407b68de541a73cdd9fbe1ff26ac73c7598d063
