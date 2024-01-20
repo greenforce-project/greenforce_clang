@@ -1,0 +1,23 @@
+[date]
+21 January 2024
+
+[clang-ver]
+greenforce clang version 18.0.0git (https://github.com/llvm/llvm-project.git 818de32f31e8075657dd27938e4aeb1a46f3f631)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/818de32f
+
+[llvm-commit-msg]
+Warning for incorrect use of 'pure' attribute (#78200)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+213M
+
+[shasum]
+9a11d1a20b10848d3ed898366533aaf034991a1c04681256eac9bc70d4ff211d
