@@ -1,0 +1,23 @@
+[date]
+28 January 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git e976053a63c251e9b65733ed3574e5c3de62084c)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/e976053a
+
+[llvm-commit-msg]
+[clang, SystemZ] Fix test case for buildbot.
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+203M
+
+[shasum]
+e8db28bdb893d7235963f4d7d9e3ae0d663f8588affe01b535c75bf4fea13f24
