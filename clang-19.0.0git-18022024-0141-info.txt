@@ -1,0 +1,23 @@
+[date]
+18 February 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 5023fd09b43e9b7eee390a8552db7ebce6e2b15c)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/5023fd09
+
+[llvm-commit-msg]
+[NFC] Trim trailing whitespace
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+203M
+
+[shasum]
+3133163a2fd949eaac0e66f5ff7551cb90da749eb32492d9ee2e383a4acd8737
