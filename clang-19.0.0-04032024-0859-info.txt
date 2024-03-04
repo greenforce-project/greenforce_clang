@@ -1,0 +1,23 @@
+[date]
+4 March 2024
+
+[clang-ver]
+greenforce clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project ba2f397fb6912c39390988be275168d3647fa466)
+
+[llvm-commit]
+https://android.googlesource.com/toolchain/llvm-project/+/ba2f397f
+
+[llvm-commit-msg]
+Merge for LLVM update
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+193M
+
+[shasum]
+370e4bca9e986bcdfda75cb63f132d7b07462c47796bda6b9e333e81f46d80dc
