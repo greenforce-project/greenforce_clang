@@ -1,0 +1,23 @@
+[date]
+6 March 2024
+
+[clang-ver]
+greenforce clang version 19.0.0 (https://github.com/llvm/llvm-project.git 083d8aa03aca55b88098a91e41e41a8e321a5721)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/083d8aa0
+
+[llvm-commit-msg]
+[SLP][NFC]Use TargetTransformInfo:: instead of TTI:: in BoUpSLP to avoid some compilers confusion.
+
+[binutils-ver]
+2.38
+
+[host-glibc]
+2.35
+
+[size]
+186M
+
+[shasum]
+2146a9aed7cfd79ebfaafdd14247a96505618fbeb50bb935924784fb5e230589
