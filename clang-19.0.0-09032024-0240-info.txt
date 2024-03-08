@@ -1,0 +1,23 @@
+[date]
+9 March 2024
+
+[clang-ver]
+greenforce clang version 19.0.0 (https://github.com/llvm/llvm-project.git 70da9155efb3aeb2c6b37678168cf29f91e80734)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/70da9155
+
+[llvm-commit-msg]
+Update host CPU detection for Apple M2 and Apple M3 (#82100)
+
+[binutils-ver]
+2.38
+
+[host-glibc]
+2.35
+
+[size]
+187M
+
+[shasum]
+d550a7266f52ec6f55a56d601d67de48359466563ade613fdc17ac7795db47b3
