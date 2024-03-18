@@ -1,0 +1,23 @@
+[date]
+18 March 2024
+
+[clang-ver]
+greenforce clang version 19.0.0 (https://github.com/llvm/llvm-project.git 0c423af59c971ddf1aa12d94529edf8293608157)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/0c423af59c971ddf1aa12d94529edf8293608157
+
+[llvm-commit-msg]
+[clang-format] Add Options to break inside the TableGen DAGArg. (#83149)
+
+[binutils-ver]
+master
+
+[host-glibc]
+
+
+[size]
+194M
+
+[shasum]
+cf58cf3df8c55f499b9ebdd2060f446ac81f3a7ce4c08f18e68a898f9b3a36cb
