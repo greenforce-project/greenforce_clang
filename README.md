@@ -2,7 +2,7 @@
 
 ## Host compatibility
 
-This toolchain is built on , which uses glibc . Compatibility with older distributions cannot be guaranteed. Other libc implementations (such as musl) are not supported.
+This toolchain is built on Ubuntu 22.04.3 LTS, which uses glibc 2.35. Compatibility with older distributions cannot be guaranteed. Other libc implementations (such as musl) are not supported.
 
 ## Building Linux
 
@@ -16,7 +16,7 @@ mkdir -p ~/toolchains/greenforce-clang
 Then to download:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/18032024/greenforce-clang-19.0.0-18032024-2229.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/20032024/greenforce-clang-19.0.0-20032024-0143.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
 
 ```
 
