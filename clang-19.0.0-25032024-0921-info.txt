@@ -1,0 +1,23 @@
+[date]
+25 March 2024
+
+[clang-ver]
+greenforce clang version 19.0.0 (https://github.com/llvm/llvm-project.git 5e5b6561029665e69e033cff4216fecb78302259)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/5e5b6561029665e69e033cff4216fecb78302259
+
+[llvm-commit-msg]
+[MC] Make `MCParsedAsmOperand::getReg()` return `MCRegister` (#86444)
+
+[binutils-ver]
+master
+
+[host-glibc]
+2.35
+
+[size]
+179M
+
+[shasum]
+cbcf4e98b980ef63eee433d425015e3846ae5f60b24daa7fbfb120d24a3ff402
