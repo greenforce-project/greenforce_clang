@@ -1,0 +1,23 @@
+[date]
+27 March 2024
+
+[clang-ver]
+greenforce clang version 19.0.0 (https://github.com/llvm/llvm-project.git 0e5c504d3d80eb1488483a15269c2155f9e04bd7)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/0e5c504d3d80eb1488483a15269c2155f9e04bd7
+
+[llvm-commit-msg]
+[DebugInfo] [SelectionDAG] Fix handling of duplicate dbg values (#86598)
+
+[binutils-ver]
+2_35-branch
+
+[host-glibc]
+2.35
+
+[size]
+174M
+
+[shasum]
+374cbbc1b40501c914f69b15027dbf4164fa8143868030a4321f5f9421cf473e
