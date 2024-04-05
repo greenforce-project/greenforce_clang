@@ -1,0 +1,23 @@
+[date]
+6 April 2024
+
+[clang-ver]
+greenforce clang version 19.0.0 (https://github.com/greenforce-project/llvm-project.git a35b3feea4b9a7bc6273dcf1bb6ae26352f39e4e)
+
+[llvm-commit]
+https://github.com/greenforce-project/llvm-project/commit/a35b3feea4b9a7bc6273dcf1bb6ae26352f39e4e
+
+[llvm-commit-msg]
+Merge 30f6eafaa9 for LLVM update
+
+[binutils-ver]
+2.35.1
+
+[host-glibc]
+2.35
+
+[size]
+378M
+
+[shasum]
+8a423b17f62db6f664b7a58f60d93dd4e2ac927db153e17c5e2233a752773e8c

@@ -16,7 +16,7 @@ mkdir -p ~/toolchains/greenforce-clang
 Then to download:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/05042024/greenforce-clang-19.0.0-05042024-0304.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/06042024/greenforce-clang-19.0.0-06042024-0153.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
 
 ```
 
