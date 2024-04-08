@@ -9,14 +9,7 @@ This toolchain is built on Ubuntu 22.04.3 LTS, which uses glibc 2.35. Compatibil
 This is how you start initializing the Greenforce Clang to your server, use a command like this:
 
 ```bash
-# Create a directory for the source files
-mkdir -p ~/toolchains/greenforce-clang
-```
-
-Then to download:
-
-```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/06042024/greenforce-clang-19.0.0-06042024-0153.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/toolchains/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/08042024/greenforce-clang-19.0.0git-08042024-1910.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C /path/to/folder
 
 ```
 
@@ -24,7 +17,7 @@ Make sure you have this toolchain in your `PATH`:
 
 ```bash
 
-export PATH="~/toolchains/greenforce-clang/bin:$PATH"
+export PATH="/path/to/folder/bin:$PATH"
 
 ```
 

@@ -1,0 +1,32 @@
+[date]
+8 April 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 2abd71ec51079d84a29639389dc9a66edd4909e5)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/2abd71ec51079d84a29639389dc9a66edd4909e5
+
+[llvm-commit-msg]
+[mlir] Fix -Wunused-variable in DebugImporter.cpp (NFC)
+
+[ld-ver]
+GNU ld (GNU Binutils) 2.42.50.20240408
+
+[binutils-ver]
+master
+
+[binutils-commit]
+https://github.com/bminor/binutils-gdb/commit/36192c2be137d2af13fbc2d528de05b41d546805
+
+[binutils-commit-msg]
+gdb/configure: realign the AC_ARG_ENABLE(sim, ....) block
+
+[host-glibc]
+2.35
+
+[size]
+102M
+
+[shasum]
+95ebd10651b4e7138bd0690b92a8f6a0f49ba7a46e3d38c2ea9458ed111845f3
