@@ -25,6 +25,7 @@ For an AArch64 cross-compilation setup, you must set the following variables. So
 
 - `CC=clang` (must be passed directly to `make`)
 - Now GCC/binutils are separate. Set `CROSS_COMPILE` and `CROSS_COMPILE_ARM32` (if your kernel has a 32-bit vDSO) according to the toolchain you have.
+
 Optionally, you can also choose to use as many LLVM tools as possible to reduce reliance on binutils. All of these must be passed directly to `make`:
 
 - `AR=llvm-ar`
