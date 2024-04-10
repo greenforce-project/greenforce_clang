@@ -2,14 +2,14 @@
 
 ## Host compatibility
 
-This toolchain is built on Ubuntu 22.04.3 LTS, which uses glibc 2.35. Compatibility with older distributions cannot be guaranteed. Other libc implementations (such as musl) are not supported.
+This toolchain is built on Ubuntu 22.04.4 LTS, which uses glibc 2.35. Compatibility with older distributions cannot be guaranteed. Other libc implementations (such as musl) are not supported.
 
 ## Building Linux
 
 This is how you start initializing the Greenforce Clang to your server, use a command like this:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/08042024/greenforce-clang-19.0.0git-08042024-1910.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C /path/to/folder
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/11042024/greenforce-clang-19.0.0git-11042024-0053.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/greenforce-clang
 
 ```
 
@@ -17,16 +17,14 @@ Make sure you have this toolchain in your `PATH`:
 
 ```bash
 
-export PATH="/path/to/folder/bin:$PATH"
+export PATH="~/greenforce-clang/bin:${PATH}"
 
 ```
 
 For an AArch64 cross-compilation setup, you must set the following variables. Some of them can be environment variables, but some must be passed directly to `make` as a command-line argument. It is recommended to pass **all** of them as `make` arguments to avoid confusing errors:
 
 - `CC=clang` (must be passed directly to `make`)
-- `CROSS_COMPILE=aarch64-linux-gnu-`
-- If your kernel has a 32-bit vDSO: `CROSS_COMPILE_ARM32=arm-linux-gnueabi-`
-
+- Now GCC/binutils are separate. Set `CROSS_COMPILE` and `CROSS_COMPILE_ARM32` (if your kernel has a 32-bit vDSO) according to the toolchain you have.
 Optionally, you can also choose to use as many LLVM tools as possible to reduce reliance on binutils. All of these must be passed directly to `make`:
 
 - `AR=llvm-ar`
@@ -47,4 +45,3 @@ Greenforce Clang has been designed to be easy-to-use compared to other toolchain
 
 - `CLANG_TRIPLE` does not need to be set because we don't use AOSP binutils.
 - `LD_LIBRARY_PATH` does not need to be set because we set library load paths in the toolchain.
-- No separate GCC/binutils toolchains are necessary; all tools are bundled.
