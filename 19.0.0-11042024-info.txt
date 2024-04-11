@@ -1,0 +1,23 @@
+[date]
+11 April 2024
+
+[clang-ver]
+clang version 19.0.0 (https://github.com/greenforce-project/llvm-project.git 1ab5f093de16ec83bc979b750f94f8bfae574376)
+
+[lld-ver]
+greenforce LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/greenforce-project/llvm-project/commit/1ab5f093de16ec83bc979b750f94f8bfae574376
+
+[llvm-commit-msg]
+Merge fca51911d4 for LLVM update
+
+[host-glibc]
+2.35
+
+[size]
+118M
+
+[shasum]
+c703355023ec83f8b26b064e543a237098b86a973a5f5c4e2e0023d23be68bfc
