@@ -9,7 +9,22 @@ This toolchain is built on Ubuntu 22.04.4 LTS, which uses glibc 2.35. Compatibil
 This is how you start initializing the Greenforce Clang to your server, use a command like this:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/13042024/greenforce-clang-19.0.0git-13042024-0151.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/17042024/greenforce-clang-19.0.0git-17042024-0152.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/greenforce-clang
+
+```
+
+Clone GCC (AArch64) for binutils:
+
+```bash
+git clone https://github.com/greenforce-project/gcc-arm64 -b main ~/gcc64 --depth=1
+
+```
+
+Clone GCC (Arm32) **If your kernel has a 32-bit vDSO**:
+
+```bash
+
+git clone https://github.com/greenforce-project/gcc-arm64 -b main ~/gcc32 --depth=1
 
 ```
 
@@ -17,14 +32,15 @@ Make sure you have this toolchain in your `PATH`:
 
 ```bash
 
-export PATH="~/greenforce-clang/bin:${PATH}"
+export PATH="~/greenforce-clang/bin:~/gcc64/bin:~/gcc32/bin:${PATH}"
 
 ```
 
 For an AArch64 cross-compilation setup, you must set the following variables. Some of them can be environment variables, but some must be passed directly to `make` as a command-line argument. It is recommended to pass **all** of them as `make` arguments to avoid confusing errors:
 
 - `CC=clang` (must be passed directly to `make`)
-- Now GCC/binutils are separate. Set `CROSS_COMPILE` and `CROSS_COMPILE_ARM32` (if your kernel has a 32-bit vDSO) according to the toolchain you have.
+- `CROSS_COMPILE=aarch64-linux-gnu-`
+- For 32-bit vDSO: `CROSS_COMPILE_ARM32=arm-linux-gnueabi-`
 
 Optionally, you can also choose to use as many LLVM tools as possible to reduce reliance on binutils. All of these must be passed directly to `make`:
 

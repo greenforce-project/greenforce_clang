@@ -1,0 +1,23 @@
+[date]
+17 April 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 8137bd9e03d636a27701a85b6efe899f9571cac5)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/8137bd9e03d636a27701a85b6efe899f9571cac5
+
+[llvm-commit-msg]
+[memprof] Use CSId to construct MemProfRecord (#88362)
+
+[host-glibc]
+2.35
+
+[size]
+118M
+
+[shasum]
+428d257875cd5da5b90c09238ce360f6166b5f89285803d67add0707d3148e22
