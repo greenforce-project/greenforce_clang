@@ -9,7 +9,7 @@ This toolchain is built on Ubuntu 22.04.4 LTS, which uses glibc 2.35. Compatibil
 This is how you start initializing the Greenforce Clang to your server, use a command like this:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/19042024/greenforce-clang-19.0.0git-19042024-1926.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/greenforce-clang
+wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/20042024/greenforce-clang-19.0.0git-20042024-0156.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/greenforce-clang
 
 ```
 

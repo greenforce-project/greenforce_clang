@@ -1,0 +1,23 @@
+[date]
+20 April 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git ab22504479cb7b8985855aa2f2c851390bc1d167)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/ab22504479cb7b8985855aa2f2c851390bc1d167
+
+[llvm-commit-msg]
+[libc++] Fix usage of 'exclude_from_explicit_instantiation' attribute on local class members (#89377)
+
+[host-glibc]
+2.35
+
+[size]
+124Mb
+
+[shasum]
+24ef2d86139f7082f8a59f9132238783be9bc508a30acc042aae5748a456b639
