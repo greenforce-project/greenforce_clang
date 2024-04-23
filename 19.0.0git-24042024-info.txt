@@ -1,0 +1,23 @@
+[date]
+24 April 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 49cb6dbcb8537270cd0e2a9bcd6663d2e619f5aa)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/49cb6dbcb8537270cd0e2a9bcd6663d2e619f5aa
+
+[llvm-commit-msg]
+[flang][cuda] Remove restriction on device subprogram (#89677)
+
+[host-glibc]
+2.35
+
+[size]
+124Mb
+
+[shasum]
+5b7f0d0321c1e3618376b0828cb33bc312dfaafc4c1092324a438c233e3887dd
