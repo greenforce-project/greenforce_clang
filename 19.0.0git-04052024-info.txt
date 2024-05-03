@@ -1,0 +1,23 @@
+[date]
+4 May 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 121bef76df415e4cfc9543630b23f2e648b9a18a)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/121bef76df415e4cfc9543630b23f2e648b9a18a
+
+[llvm-commit-msg]
+[docs,utils] Convert text files from CRLF to LF
+
+[host-glibc]
+2.35
+
+[size]
+124Mb
+
+[shasum]
+ad7e50eebdc1d5d725852838a27538ddd8aed77eaaf6f6994ede8d73dac6ce60
