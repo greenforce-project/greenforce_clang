@@ -1,0 +1,23 @@
+[date]
+8 May 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 72085698a244e10780a6f115269a2f88455c8cab)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/72085698a244e10780a6f115269a2f88455c8cab
+
+[llvm-commit-msg]
+[mlir][math] Add Polynomial Approximation for acos, asin op (#90962)
+
+[host-glibc]
+2.35
+
+[size]
+124Mb
+
+[shasum]
+2a24d12411a6d335299aa4b000775e41e336d0908d704c8f0b05458ee0b9e455
