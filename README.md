@@ -2,29 +2,15 @@
 
 ## Host compatibility
 
-This toolchain is built on Ubuntu 22.04.4 LTS, which uses glibc 2.35. Compatibility with older distributions cannot be guaranteed. Other libc implementations (such as musl) are not supported.
+changesforthescripts
 
 ## Building Linux
 
 This is how you start initializing the Greenforce Clang to your server, use a command like this:
 
 ```bash
-wget -c https://github.com/greenforce-project/greenforce_clang/releases/download/11052024/greenforce-clang-19.0.0git-11052024-0304.tar.zst -O - | tar --use-compress-program=unzstd -xf - -C ~/greenforce-clang
 
-```
-
-Clone GCC (AArch64) for binutils:
-
-```bash
-git clone https://github.com/greenforce-project/gcc-arm64 -b main ~/gcc64 --depth=1
-
-```
-
-Clone GCC (Arm32) **If your kernel has a 32-bit vDSO**:
-
-```bash
-
-git clone https://github.com/greenforce-project/gcc-arm64 -b main ~/gcc32 --depth=1
+wget https://github.com/greenforce-project/greenforce_clang/raw/main/install_kernel.sh; bash install_kernel.sh; rm -rf install_kernel.sh
 
 ```
 
@@ -32,7 +18,7 @@ Make sure you have this toolchain in your `PATH`:
 
 ```bash
 
-export PATH="~/greenforce-clang/bin:~/gcc64/bin:~/gcc32/bin:${PATH}"
+export PATH="~/greenforce-clang/bin:~/gcc64/bin:~/gcc32/bin:$PATH"
 
 ```
 
