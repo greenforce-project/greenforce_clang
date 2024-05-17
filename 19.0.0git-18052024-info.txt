@@ -1,0 +1,23 @@
+[date]
+18 May 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 932bef23276da05c5eed2ffe7c62b7fc5f39caf1)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/932bef23276da05c5eed2ffe7c62b7fc5f39caf1
+
+[llvm-commit-msg]
+Poly canonicalization (#91410)
+
+[host-glibc]
+2.35
+
+[size]
+124Mb
+
+[shasum]
+a764e071d52a8816c36f0ee30a434caa920e73c6fe67efeec590162d0d101de1
