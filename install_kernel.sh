@@ -1,32 +1,41 @@
 #!/usr/bin/env bash
 
 get_dir=$(pwd)
-case $# in
-    0)
-        cc_path="$get_dir/greenforce-clang" ;;
-    1)
-        cc_path="$get_dir/$1" ;;
-    *)
-        echo "Too many arguments. Only the first one will be considered."
-        cc_path="$get_dir/$1" ;;
-esac
-[[ ! -d $cc_path ]] && mkdir -p $cc_path
-changesforthescripts
 
-wget -c "$latest_url" -O - | tar --use-compress-program=unzstd -xf - -C $cc_path
-git clone https://github.com/greenforce-project/gcc-arm64 -b main $get_dir/gcc64 --depth=1
-git clone https://github.com/greenforce-project/gcc-arm64 -b main $get_dir/gcc32 --depth=1
+if [ $# -eq 0 ]; then
+    echo "No custom path provided. Using default path: $get_dir/greenforce-clang"
+    export cc_path="$get_dir/greenforce-clang"
+elif [ $# -eq 1 ]; then
+    echo "Custom path provided: $1"
+    export cc_path="$1"
+    echo "Setting custom path: $cc_path"
+else
+    echo "Too many arguments. Only the first one will be considered."
+    export cc_path="$1"
+    echo "Setting custom path: $cc_path"
+fi
 
-BUILD_KERNEL_FLAGS="CC=clang "
-BUILD_KERNEL_FLAGS+="AR=llvm-ar "
-BUILD_KERNEL_FLAGS+="OBJDUMP=llvm-objdump "
-BUILD_KERNEL_FLAGS+="STRIP=llvm-strip "
-BUILD_KERNEL_FLAGS+="NM=llvm-nm "
-BUILD_KERNEL_FLAGS+="VERBOSE=0 "
-BUILD_KERNEL_FLAGS+="CROSS_COMPILE=aarch64-linux-gnu- "
-BUILD_KERNEL_FLAGS+="CROSS_COMPILE_COMPAT=arm-linux-gnueabi-"
-BUILD_KERNEL_FLAGS_LLD="$BUILD_KERNEL_FLAGS LD=ld.lld"
-BUILD_KERNEL_FLAGS_FULL="$BUILD_KERNEL_FLAGS LLVM=1"
+if [ ! -d "$cc_path" ]; then
+    mkdir -p "$cc_path"
+fi
 
-export PATH="$cc_path/bin:$get_dir/gcc64/bin:$get_dir/gcc32/bin:$PATH"
-export BUILD_KERNEL_FLAGS BUILD_KERNEL_FLAGS_LLD BUILD_KERNEL_FLAGS_FULL
+wget -N -q https://raw.githubusercontent.com/greenforce-project/greenforce_clang/main/latest_url.txt
+source latest_url.txt; rm -rf latest_url.txt
+
+echo "Downloading and extracting clang..."
+wget -c "$latest_url" -O - | tar -k --use-compress-program=unzstd -xf - -C "$cc_path"
+if [ -a $cc_path/bin/clang ]; then
+    echo "Clang has been saved in: $cc_path"
+fi
+
+echo "Checking and cloning gcc64 repository..."
+if [ ! -d "$get_dir/gcc64" ]; then
+    git clone https://github.com/greenforce-project/gcc-arm64 -b main "$get_dir/gcc64" --depth=1
+    echo "GCC64 repository cloned."
+fi
+
+echo "Checking and cloning gcc32 repository..."
+if [ ! -d "$get_dir/gcc32" ]; then
+    git clone https://github.com/greenforce-project/gcc-arm64 -b main "$get_dir/gcc32" --depth=1
+    echo "GCC32 repository cloned."
+fi
