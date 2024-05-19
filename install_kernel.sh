@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
-get_dir=$(pwd)
-
 if [ $# -eq 0 ]; then
-    echo "No custom path provided. Using default path: $get_dir/greenforce-clang"
-    export cc_path="$get_dir/greenforce-clang"
+    echo "No custom path provided. Using default path: $HOME/greenforce-clang"
+    export cc_path="$HOME/greenforce-clang"
 elif [ $# -eq 1 ]; then
     echo "Custom path provided: $1"
     export cc_path="$1"
@@ -29,13 +27,13 @@ if [ -a $cc_path/bin/clang ]; then
 fi
 
 echo "Checking and cloning gcc64 repository..."
-if [ ! -d "$get_dir/gcc64" ]; then
-    git clone https://github.com/greenforce-project/gcc-arm64 -b main "$get_dir/gcc64" --depth=1
+if [ ! -d "$HOME/gcc64" ]; then
+    git clone https://github.com/greenforce-project/gcc-arm64 -b main "$HOME/gcc64" --depth=1
     echo "GCC64 repository cloned."
 fi
 
 echo "Checking and cloning gcc32 repository..."
-if [ ! -d "$get_dir/gcc32" ]; then
-    git clone https://github.com/greenforce-project/gcc-arm64 -b main "$get_dir/gcc32" --depth=1
+if [ ! -d "$HOME/gcc32" ]; then
+    git clone https://github.com/greenforce-project/gcc-arm64 -b main "$HOME/gcc32" --depth=1
     echo "GCC32 repository cloned."
 fi
