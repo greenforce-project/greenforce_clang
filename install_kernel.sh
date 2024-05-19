@@ -37,3 +37,5 @@ if [ ! -d "$HOME/gcc32" ]; then
     git clone https://github.com/greenforce-project/gcc-arm64 -b main "$HOME/gcc32" --depth=1
     echo "GCC32 repository cloned."
 fi
+
+export PATH="$HOME/greenforce-clang/bin:$HOME/gcc64/bin:$HOME/gcc32/bin:$PATH"
