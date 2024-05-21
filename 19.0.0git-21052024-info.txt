@@ -1,0 +1,23 @@
+[date]
+21 May 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 6658e1a3fdfebfc9d1805029ca0e4de643634927)
+
+[lld-ver]
+LLD 19.0.0
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/6658e1a3fdfebfc9d1805029ca0e4de643634927
+
+[llvm-commit-msg]
+Adding parsing and semantic check support for omp masked (#91432)
+
+[host-glibc]
+
+
+[size]
+124Mb
+
+[shasum]
+97f560b6315fa01ca1379d6454e7c4a9cf0904a22c0045af1d07551a2910c924
