@@ -2,4 +2,4 @@
 # This file provides the link to the latest successfully compiled Greenforce Clang 19.0.0git.
 # It serves as a reference for accessing the most recent version of Clang for use in various projects.
 
-latest_url=https://github.com/greenforce-project/greenforce_clang/releases/download/21052024/greenforce-clang-19.0.0git-21052024-1317.tar.zst
+latest_url=https://github.com/greenforce-project/greenforce_clang/releases/download/22052024/greenforce-clang-19.0.0git-22052024-0218.tar.zst
