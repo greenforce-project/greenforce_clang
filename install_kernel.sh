@@ -17,11 +17,11 @@ if [ ! -d "$cc_path" ]; then
     mkdir -p "$cc_path"
 fi
 
-wget -N -q https://raw.githubusercontent.com/greenforce-project/greenforce_clang/main/latest_url.txt
-source latest_url.txt; rm -rf latest_url.txt
+wget -N -q https://raw.githubusercontent.com/greenforce-project/greenforce_clang/main/get_latest_url.sh
+source get_latest_url.sh; rm -rf get_latest_url.sh
 
 echo "Downloading and extracting clang..."
-wget -c "$latest_url" -O - | tar -k --use-compress-program=unzstd -xf - -C "$cc_path"
+wget -c "$LATEST_URL" -O - | tar -k --use-compress-program=unzstd -xf - -C "$cc_path"
 if [ -a $cc_path/bin/clang ]; then
     echo "Clang has been saved in: $cc_path"
 fi
