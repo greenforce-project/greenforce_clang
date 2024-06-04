@@ -1,0 +1,22 @@
+[date]
+5 June 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git dfd1a2f081bdc9566cdcd03937534ec4897c9056)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/dfd1a2f081bdc9566cdcd03937534ec4897c9056
+
+[llvm-commit-msg]
+[WebAssembly] Implement all f16x8 unary instructions. (#94063)
+
+[host-glibc]
+
+
+[size]
+155Mb
+
+[shasum]\n8d75416340286c491a1cf7c5341eebc2194af84aaf060319cae237b55592d8b8
