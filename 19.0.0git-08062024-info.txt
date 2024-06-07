@@ -1,0 +1,22 @@
+[date]
+8 June 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git f9ae07b9e1509732be01fddefb529c6626c119a9)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/f9ae07b9e1509732be01fddefb529c6626c119a9
+
+[llvm-commit-msg]
+[libc++][NFC] Fix typo
+
+[host-glibc]
+
+
+[size]
+155Mb
+
+[shasum]\neabb174feb29e88591e254f9d27b85bbe33a922a29ca1b7c85bee2c649c0c1c5
