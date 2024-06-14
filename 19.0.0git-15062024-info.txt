@@ -1,0 +1,22 @@
+[date]
+15 June 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 38fd0181a065784afdf9b170fe3988aff01aab66)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/38fd0181a065784afdf9b170fe3988aff01aab66
+
+[llvm-commit-msg]
+[flang] Lower REDUCE intrinsic for reduction op with args by value (#95353)
+
+[host-glibc]
+
+
+[size]
+155Mb
+
+[shasum]\nd9bd8abf01b627d27e55b96e142843103c3828e6059369b6b7fc1355ac77c5b9
