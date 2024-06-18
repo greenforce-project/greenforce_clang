@@ -1,0 +1,22 @@
+[date]
+19 June 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git b1477eb436fd22e96b4592a73242902ae240eeef)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/b1477eb436fd22e96b4592a73242902ae240eeef
+
+[llvm-commit-msg]
+[ARM64EC] Fix thunks for C++ methods returning structs. (#95876)
+
+[host-glibc]
+
+
+[size]
+155Mb
+
+[shasum]\ndefc79d9ad6974942af1f59bcc118ea5a219db25ad6e05583322f6e7ecdbc693
