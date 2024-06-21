@@ -1,0 +1,22 @@
+[date]
+22 June 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git e23250ecb7e09170e584db60375100790f39fac9)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/e23250ecb7e09170e584db60375100790f39fac9
+
+[llvm-commit-msg]
+[clang] Implement function pointer signing and authenticated function calls (#93906)
+
+[host-glibc]
+
+
+[size]
+156Mb
+
+[shasum]\n9fbc3f4ba7c01de86f33c953f158ca1e723bc83bf81fb23544697a20e2715625
