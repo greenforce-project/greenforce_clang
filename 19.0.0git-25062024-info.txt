@@ -1,0 +1,22 @@
+[date]
+25 June 2024
+
+[clang-ver]
+greenforce.25062024 clang version 19.0.0git (https://github.com/llvm/llvm-project.git a2d340ba161fe48ee4ff736c6e7877038a7388cd)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/a2d340ba161fe48ee4ff736c6e7877038a7388cd
+
+[llvm-commit-msg]
+Revert "[Flang][Driver] Add -print-resource-dir command line flag to emit Flang's resource directory" (#96557)
+
+[host-glibc]
+
+
+[size]
+156Mb
+
+[shasum]\n9b0e234e36305fa7e426c2045593a3df8f75f142e15a9eb3ba09224ae757cb22
