@@ -1,0 +1,22 @@
+[date]
+29 June 2024
+
+[clang-ver]
+greenforce.29062024 clang version 19.0.0git (https://github.com/llvm/llvm-project.git 319e11daee807981db61dad3da90d9bf36317e03)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/319e11daee807981db61dad3da90d9bf36317e03
+
+[llvm-commit-msg]
+Revert: [clangd] Replace an include with a forward declaration (#97082)
+
+[host-glibc]
+
+
+[size]
+156Mb
+
+[shasum]\n60500aedf170e9804c281897d2daf110b2be66221a7920ae25b93b7a4018ff47
