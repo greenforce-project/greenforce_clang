@@ -1,0 +1,22 @@
+[date]
+3 July 2024
+
+[clang-ver]
+greenforce.03072024 clang version 19.0.0git (https://github.com/llvm/llvm-project.git 60cd3eb880fe48d192a58c64a1e38e875fc65377)
+
+[lld-ver]
+LLD 19.0.0 (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/60cd3eb880fe48d192a58c64a1e38e875fc65377
+
+[llvm-commit-msg]
+Reduce llvm-gsymutil memory usage (#91023)
+
+[host-glibc]
+
+
+[size]
+156Mb
+
+[shasum]\n5fe8a51abd102aee51ac233104f314ea481dc440a1e6988b25574a6fa38c4563
