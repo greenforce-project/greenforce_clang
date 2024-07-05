@@ -1,0 +1,22 @@
+[date]
+6 July 2024
+
+[clang-ver]
+greenforce.06072024 clang version 19.0.0git (https://github.com/llvm/llvm-project.git 3bfc5167d9e49b9a53e364e8d8853fce543cca0f)
+
+[lld-ver]
+LLD 19.0.0 (https://github.com/llvm/llvm-project.git 3bfc5167d9e49b9a53e364e8d8853fce543cca0f), compatible with GNU linkers
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/3bfc5167d9e49b9a53e364e8d8853fce543cca0f
+
+[llvm-commit-msg]
+[lldb-dap][NFC] Minor rename
+
+[host-glibc]
+
+
+[size]
+156Mb
+
+[shasum]\n04e46a69a74b6599ecaafe600f17da7aa6146ead7475c25ae3ce6fec0e25c803
