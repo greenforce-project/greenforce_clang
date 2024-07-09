@@ -1,0 +1,22 @@
+[date]
+10 July 2024
+
+[clang-ver]
+greenforce.10072024 clang version 19.0.0git (https://github.com/llvm/llvm-project.git c91b50ed92dc1c498aae9c428ace85edc974a8f3)
+
+[lld-ver]
+LLD 19.0.0 (https://github.com/llvm/llvm-project.git c91b50ed92dc1c498aae9c428ace85edc974a8f3) (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/c91b50ed92dc1c498aae9c428ace85edc974a8f3
+
+[llvm-commit-msg]
+[hexagon] Add {con,de}structive interference size defn (#94877)
+
+[host-glibc]
+
+
+[size]
+156Mb
+
+[shasum]\nf3f98bfbca9ecd64a6c6a212eba1830a8dde511e86e1deff056f775b99498873
