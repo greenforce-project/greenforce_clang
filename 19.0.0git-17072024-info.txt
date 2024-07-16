@@ -1,0 +1,22 @@
+[date]
+17 July 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git f38baad3e7395af94290aac21e587bc1c5f00946)
+
+[lld-ver]
+LLD 19.0.0 (https://github.com/llvm/llvm-project.git f38baad3e7395af94290aac21e587bc1c5f00946) (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/f38baad3e7395af94290aac21e587bc1c5f00946
+
+[llvm-commit-msg]
+[InstCombine] Fix a crash in `PointerReplacer` (#98987)
+
+[host-glibc]
+
+
+[size]
+156Mb
+
+[shasum]\n2b237870549bca267c115d64abd78e0b0273fe234331b75b3832633705996eaf
