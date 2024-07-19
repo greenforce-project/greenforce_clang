@@ -1,0 +1,22 @@
+[date]
+20 July 2024
+
+[clang-ver]
+greenforce clang version 19.0.0git (https://github.com/llvm/llvm-project.git 22eb290a9696e2a3fd042096c61e35eca2fcce0c)
+
+[lld-ver]
+LLD 19.0.0 (https://github.com/llvm/llvm-project.git 22eb290a9696e2a3fd042096c61e35eca2fcce0c) (compatible with GNU linkers)
+
+[llvm-commit]
+https://github.com/llvm/llvm-project/commit/22eb290a9696e2a3fd042096c61e35eca2fcce0c
+
+[llvm-commit-msg]
+[PS4/PS5][Driver][DWARF] Always emit .debug_aranges for SCE tuning (#99629)
+
+[host-glibc]
+
+
+[size]
+157Mb
+
+[shasum]\n9af77b35a9fd8af4f85feceb463eab4e7934e5df7b82f3aba937f5f7696226c5
