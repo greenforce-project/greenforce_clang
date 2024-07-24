@@ -2,21 +2,25 @@
 24 July 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git e59a619acf0b829f34a1c63aab0ad829ca0defc9)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git fad17b43dbc09ac7e0a95535459845f72c2b739a)
 
 [lld-ver]
-LLD 20.0.0 (https://github.com/llvm/llvm-project.git e59a619acf0b829f34a1c63aab0ad829ca0defc9) (compatible with GNU linkers)
+LLD 20.0.0 (https://github.com/llvm/llvm-project.git fad17b43dbc09ac7e0a95535459845f72c2b739a) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/e59a619acf0b829f34a1c63aab0ad829ca0defc9
+https://github.com/llvm/llvm-project/commit/fad17b43dbc09ac7e0a95535459845f72c2b739a
 
 [llvm-commit-msg]
-Clang: don't unnecessarily convert inline-asm operands to x86mmx in IR. (#98273)
+[clang] replaced the usage of `asctime` with `std::put_time` (#99075)
 
 [host-glibc]
-
+2.35
 
 [size]
 157Mb
 
-[shasum]\n2fe289e31e9ad2d8252b5422c7f0f15eec68024aa8fed08f9acb840113a5edd2
+[link-rel]
+https://github.com/greenforce-project/greenforce_clang/releases/download/24072024/greenforce-clang-20.0.0git-24072024.tar.zst
+
+[shasum]
+1bdea29ba34c13b672803d3ef26adbb955a33cb79cd4b6c8a6e01f545b61da52
