@@ -1,26 +1,26 @@
 [date]
-24 July 2024
+28 July 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git fad17b43dbc09ac7e0a95535459845f72c2b739a)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 803eaf29267c6aae9162d1a83a4a2ae508b440d3)
 
 [lld-ver]
-LLD 20.0.0 (https://github.com/llvm/llvm-project.git fad17b43dbc09ac7e0a95535459845f72c2b739a) (compatible with GNU linkers)
+LLD 20.0.0 (https://github.com/llvm/llvm-project.git 803eaf29267c6aae9162d1a83a4a2ae508b440d3) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/fad17b43dbc09ac7e0a95535459845f72c2b739a
+https://github.com/llvm/llvm-project/commit/803eaf29267c6aae9162d1a83a4a2ae508b440d3
 
 [llvm-commit-msg]
-[clang] replaced the usage of `asctime` with `std::put_time` (#99075)
+[BOLT][NFC] Fix test requirement (#100867)
 
 [host-glibc]
 2.35
 
 [size]
-157Mb
+156Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/24072024/greenforce-clang-20.0.0git-24072024.tar.zst
+https://github.com/greenforce-project/greenforce_clang/releases/download/28072024/greenforce-clang-20.0.0git-28072024.tar.zst
 
 [shasum]
-1bdea29ba34c13b672803d3ef26adbb955a33cb79cd4b6c8a6e01f545b61da52
+0abc3ea1553d450c254f93062cdd259e0a4cb4e5eac624d931f13fd9ffe37beb
