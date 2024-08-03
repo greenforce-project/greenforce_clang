@@ -1,17 +1,17 @@
 [date]
-28 July 2024
+4 August 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 803eaf29267c6aae9162d1a83a4a2ae508b440d3)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 59476c99983d3813b412c9b0c0464365644c23a8)
 
 [lld-ver]
-LLD 20.0.0 (https://github.com/llvm/llvm-project.git 803eaf29267c6aae9162d1a83a4a2ae508b440d3) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 59476c99983d3813b412c9b0c0464365644c23a8) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/803eaf29267c6aae9162d1a83a4a2ae508b440d3
+https://github.com/llvm/llvm-project/commit/59476c99983d3813b412c9b0c0464365644c23a8
 
 [llvm-commit-msg]
-[BOLT][NFC] Fix test requirement (#100867)
+workflows/release-binaries: Fix problem with python installation on macos-14 (#101774)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/803eaf29267c6aae9162d1a83a4a2ae508b4
 156Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/28072024/greenforce-clang-20.0.0git-28072024.tar.zst
+https://github.com/greenforce-project/greenforce_clang/releases/download/04082024/greenforce-clang-20.0.0git-04082024.tar.zst
 
 [shasum]
-0abc3ea1553d450c254f93062cdd259e0a4cb4e5eac624d931f13fd9ffe37beb
+b986e5b05a790d15470db8a1047ece2c7a5452db818b7ddeb3854748dd4a4795
