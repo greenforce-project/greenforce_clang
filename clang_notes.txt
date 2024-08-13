@@ -1,26 +1,26 @@
 [date]
-4 August 2024
+13 August 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 59476c99983d3813b412c9b0c0464365644c23a8)
+clang version 20.0.0git (https://github.com/llvm/llvm-project.git c772f5d53a75f2d5d0e8eb8c09c2d6c8d0fb1255)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 59476c99983d3813b412c9b0c0464365644c23a8) (compatible with GNU linkers)
+LLD 20.0.0 (https://github.com/llvm/llvm-project.git c772f5d53a75f2d5d0e8eb8c09c2d6c8d0fb1255) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/59476c99983d3813b412c9b0c0464365644c23a8
+https://github.com/llvm/llvm-project/commit/c772f5d53a75f2d5d0e8eb8c09c2d6c8d0fb1255
 
 [llvm-commit-msg]
-workflows/release-binaries: Fix problem with python installation on macos-14 (#101774)
+[RISCV] Disable fixed vectors in getOptimalMemOpType if minimum VLEN is 32. (#102974)
 
 [host-glibc]
 2.35
 
 [size]
-156Mb
+157Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/04082024/greenforce-clang-20.0.0git-04082024.tar.zst
+https://github.com/greenforce-project/greenforce_clang/releases/download/13082024/greenforce-clang-20.0.0git-13082024.tar.zst
 
 [shasum]
-b986e5b05a790d15470db8a1047ece2c7a5452db818b7ddeb3854748dd4a4795
+46793ce981ec883c40faba7def368fabe509035d21a46ba82025b483b5baca6b
