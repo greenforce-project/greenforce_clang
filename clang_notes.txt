@@ -1,26 +1,28 @@
 [date]
-13 August 2024
+14 August 2024
 
 [clang-ver]
-clang version 20.0.0git (https://github.com/llvm/llvm-project.git c772f5d53a75f2d5d0e8eb8c09c2d6c8d0fb1255)
+clang version 20.0.0git (https://github.com/llvm/llvm-project.git 914a846e2979dc33f41e747b9b8d726424b4d92f)
 
 [lld-ver]
-LLD 20.0.0 (https://github.com/llvm/llvm-project.git c772f5d53a75f2d5d0e8eb8c09c2d6c8d0fb1255) (compatible with GNU linkers)
+LLD 20.0.0 (https://github.com/llvm/llvm-project.git 914a846e2979dc33f41e747b9b8d726424b4d92f) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/c772f5d53a75f2d5d0e8eb8c09c2d6c8d0fb1255
+https://github.com/llvm/llvm-project/commit/914a846e2979dc33f41e747b9b8d726424b4d92f
 
 [llvm-commit-msg]
-[RISCV] Disable fixed vectors in getOptimalMemOpType if minimum VLEN is 32. (#102974)
+[RISCV][GISel] Don't custom legalize load/store of vector of pointers if ELEN < XLEN. (#101565)
 
 [host-glibc]
 2.35
 
 [size]
-157Mb
+gzip: 136Mb
+xz: 90Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/13082024/greenforce-clang-20.0.0git-13082024.tar.zst
+https://github.com/greenforce-project/greenforce_clang/releases/download/14082024/greenforce-clang-20.0.0git-14082024.tar
 
 [shasum]
-46793ce981ec883c40faba7def368fabe509035d21a46ba82025b483b5baca6b
+gzip: 06cb749ad55a65305dff4686e33f26b72e39cdcee0489a75ba83f88ba9977096
+xz: 72e3540fe7028aa273f211c42026a231bc9d544870ec662a3bbfce9f0bddee5e
