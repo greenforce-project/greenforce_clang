@@ -1,17 +1,17 @@
 [date]
-18 August 2024
+25 August 2024
 
 [clang-ver]
-clang version 20.0.0git (https://github.com/llvm/llvm-project.git 76161451f5ca837b25769c7d142f8271b45d9b28)
+clang version 20.0.0git (https://github.com/llvm/llvm-project.git a5d89d5048b6d62e6e327ba01eff276f398b7a51)
 
 [lld-ver]
-LLD 20.0.0 (https://github.com/llvm/llvm-project.git 76161451f5ca837b25769c7d142f8271b45d9b28) (compatible with GNU linkers)
+LLD 20.0.0 (https://github.com/llvm/llvm-project.git a5d89d5048b6d62e6e327ba01eff276f398b7a51) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/76161451f5ca837b25769c7d142f8271b45d9b28
+https://github.com/llvm/llvm-project/commit/a5d89d5048b6d62e6e327ba01eff276f398b7a51
 
 [llvm-commit-msg]
-[libc] Fix type signature for strlcpy and strlcat (#104643)
+[Target] Use llvm::replace (NFC) (#105942)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project/commit/76161451f5ca837b25769c7d142f8271b45d
 109Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/18082024/greenforce-clang-20.0.0git-18082024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/25082024/greenforce-clang-20.0.0git-25082024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/18082024/greenforce-clang-20.0.0git-18082024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/25082024/greenforce-clang-20.0.0git-25082024.tar.xz
 
 [shasum-gzip]
-c673fff36d02a4ae6f978c941ee67f6cd7937cf9954449cf4984712968099f02
+aaccfbf83a5eca32e4d79d789ccc8f762263983d8200417ced61707204380166
 
 [shasum-xz]
-4804b30541969623f28e31fcd5259bf3690cb768aebc2d34801d59e556436e41
+07cc68d4f30a460cd78fe9af704a5f3389423a0ec2d9a760243e86a3fe33fbb0
