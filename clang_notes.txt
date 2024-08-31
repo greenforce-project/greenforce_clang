@@ -1,35 +1,35 @@
 [date]
-25 August 2024
+1 September 2024
 
 [clang-ver]
-clang version 20.0.0git (https://github.com/llvm/llvm-project.git a5d89d5048b6d62e6e327ba01eff276f398b7a51)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 8638fe1444a532c660f1ef2b93816cf6af6b05e9)
 
 [lld-ver]
-LLD 20.0.0 (https://github.com/llvm/llvm-project.git a5d89d5048b6d62e6e327ba01eff276f398b7a51) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 8638fe1444a532c660f1ef2b93816cf6af6b05e9) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/a5d89d5048b6d62e6e327ba01eff276f398b7a51
+https://github.com/llvm/llvm-project.git/commit/8638fe1444a532c660f1ef2b93816cf6af6b05e9
 
 [llvm-commit-msg]
-[Target] Use llvm::replace (NFC) (#105942)
+[X86] Fix livein handling in emitStackProbeInlineWindowsCoreCLR64. (#106828)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-165Mb
+146Mb
 
 [size-xz]
-109Mb
+96Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/25082024/greenforce-clang-20.0.0git-25082024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/01092024/greenforce-clang-20.0.0git-01092024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/25082024/greenforce-clang-20.0.0git-25082024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/01092024/greenforce-clang-20.0.0git-01092024.tar.xz
 
 [shasum-gzip]
-aaccfbf83a5eca32e4d79d789ccc8f762263983d8200417ced61707204380166
+442920405f1576300e629b635d63b4cccd45b530f5aed557d08c6293e5f35247
 
 [shasum-xz]
-07cc68d4f30a460cd78fe9af704a5f3389423a0ec2d9a760243e86a3fe33fbb0
+907c9fc4cd0bee616b12da60bba10a914741b51fe64d294469cfdd1d79562937
