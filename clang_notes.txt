@@ -1,35 +1,35 @@
 [date]
-8 September 2024
+15 September 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 23a26e7120df474f37f7369e8e06fd90f21a58b5)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 1e4e1ceeebb82dd86d0dc95eb1074b7326b50db3)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 23a26e7120df474f37f7369e8e06fd90f21a58b5) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 1e4e1ceeebb82dd86d0dc95eb1074b7326b50db3) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/23a26e7120df474f37f7369e8e06fd90f21a58b5
+https://github.com/llvm/llvm-project.git/commit/1e4e1ceeebb82dd86d0dc95eb1074b7326b50db3
 
 [llvm-commit-msg]
-[DFAJumpThreading] Avoid repeated hash lookups (NFC) (#107670)
+[Target] Avoid repeated hash lookups (NFC) (#108677)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-146Mb
+147Mb
 
 [size-xz]
-96Mb
+97Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/08092024/greenforce-clang-20.0.0git-08092024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/15092024/greenforce-clang-20.0.0git-15092024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/08092024/greenforce-clang-20.0.0git-08092024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/15092024/greenforce-clang-20.0.0git-15092024.tar.xz
 
 [shasum-gzip]
-9d320200adbc6d4d87649f866427cd41858ba0180a51b4ee8eff99b29a995166
+a0adcb3b13375c31aeba856b28c453e2a53418eda8be258d2f875a5fe6454576
 
 [shasum-xz]
-2275cf10895a00bcfb2aeaee6ce0cfddd11952c4e13116f1eeda0e3831c6ad98
+a7a02a3028ddd756caa40fd8d57dab45c638a14b62553fa23da0a9d5aa745ec6
