@@ -1,17 +1,17 @@
 [date]
-22 September 2024
+29 September 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 6b56a273490e403957eb3fd7d772d8769423a718)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 3a5b9da11598e714890f4e9f37f894fc2c7287c2)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 6b56a273490e403957eb3fd7d772d8769423a718) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 3a5b9da11598e714890f4e9f37f894fc2c7287c2) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/6b56a273490e403957eb3fd7d772d8769423a718
+https://github.com/llvm/llvm-project.git/commit/3a5b9da11598e714890f4e9f37f894fc2c7287c2
 
 [llvm-commit-msg]
-[ELF] Replace config-> with ctx.arg. in LTO.cpp
+[clang][bytecode] Implement fixed-point-to-float casts (#110369)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/6b56a273490e403957eb3fd7d772d876
 104Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/22092024/greenforce-clang-20.0.0git-22092024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/29092024/greenforce-clang-20.0.0git-29092024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/22092024/greenforce-clang-20.0.0git-22092024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/29092024/greenforce-clang-20.0.0git-29092024.tar.xz
 
 [shasum-gzip]
-061897d2dfe8a3acad5409b58dd67b95856a680a289c3c371c0b2d31e3452fde
+4ed3ab0150de58bcc2b98dd1bd83fa4c036d5da2e1408e4c5e5f6eee9b2e4706
 
 [shasum-xz]
-e580f2bfc936a38e7b327be06ee6b288b4809837688b4f871bbb22cdad4a67cf
+2eb0ac593e4a298c9935fe25287cd213ff4250d75c8702feb4dd68a8f640aca9
