@@ -1,17 +1,17 @@
 [date]
-29 September 2024
+6 October 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 3a5b9da11598e714890f4e9f37f894fc2c7287c2)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git e8f01b0557354a28d17bfe618df5e257ec3e982a)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 3a5b9da11598e714890f4e9f37f894fc2c7287c2) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git e8f01b0557354a28d17bfe618df5e257ec3e982a) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/3a5b9da11598e714890f4e9f37f894fc2c7287c2
+https://github.com/llvm/llvm-project.git/commit/e8f01b0557354a28d17bfe618df5e257ec3e982a
 
 [llvm-commit-msg]
-[clang][bytecode] Implement fixed-point-to-float casts (#110369)
+[Sema] Avoid repeated hash lookups (NFC) (#111227)
 
 [host-glibc]
 2.35
@@ -20,16 +20,16 @@ https://github.com/llvm/llvm-project.git/commit/3a5b9da11598e714890f4e9f37f894fc
 159Mb
 
 [size-xz]
-104Mb
+105Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/29092024/greenforce-clang-20.0.0git-29092024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/06102024/greenforce-clang-20.0.0git-06102024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/29092024/greenforce-clang-20.0.0git-29092024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/06102024/greenforce-clang-20.0.0git-06102024.tar.xz
 
 [shasum-gzip]
-4ed3ab0150de58bcc2b98dd1bd83fa4c036d5da2e1408e4c5e5f6eee9b2e4706
+bb291904f233a99eafc7917ffec1c5725b272c86b32fd9628d2bb0197661b58b
 
 [shasum-xz]
-2eb0ac593e4a298c9935fe25287cd213ff4250d75c8702feb4dd68a8f640aca9
+ecf9371c08c7c17d3ac2677fb03946c66a890d0aa83038282b67f3ae5eb80d1a
