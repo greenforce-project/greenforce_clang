@@ -1,35 +1,35 @@
 [date]
-20 October 2024
+27 October 2024
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 697a455e6fecf364c1ac4ff9874aefddf2952454)
+gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git a3181b11b5b758cfa852c0d27465f84ab3b079bb)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 697a455e6fecf364c1ac4ff9874aefddf2952454) (compatible with GNU linkers)
+gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git a3181b11b5b758cfa852c0d27465f84ab3b079bb) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/697a455e6fecf364c1ac4ff9874aefddf2952454
+https://github.com/llvm/llvm-project.git/commit/a3181b11b5b758cfa852c0d27465f84ab3b079bb
 
 [llvm-commit-msg]
-More aggressively deduplicate global warnings based on contents.  (#112801)
+[ADT] Teach StringRef to derive from std::string_view (#113752)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-159Mb
+82Mb
 
 [size-xz]
-105Mb
+55Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20102024/greenforce-clang-20.0.0git-20102024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/27102024/greenforce-clang-20.0.0git-27102024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20102024/greenforce-clang-20.0.0git-20102024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/27102024/greenforce-clang-20.0.0git-27102024.tar.xz
 
 [shasum-gzip]
-701cfb8d011478d8cb55eeebe885129c45252dec68cc90198d8284208a38ca61
+37370ec77acec6e50cdf964c2bfbaf65daac211e922889fd0c8a76b0b69c9e99
 
 [shasum-xz]
-619f3da5a2d54ec3e84ac3385ec62de841314b989ee9bca4a4a255810b26f98d
+ae52191760a2845d9ba04065c8bf7860de8a6ab4971e8db32c4d2c365938d4eb
