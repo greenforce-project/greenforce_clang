@@ -1,17 +1,17 @@
 [date]
-27 October 2024
+3 November 2024
 
 [clang-ver]
-gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git a3181b11b5b758cfa852c0d27465f84ab3b079bb)
+gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git 8129ba6c70aef54d87893adeb34e76f84fa69fe3)
 
 [lld-ver]
-gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git a3181b11b5b758cfa852c0d27465f84ab3b079bb) (compatible with GNU linkers)
+gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git 8129ba6c70aef54d87893adeb34e76f84fa69fe3) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/a3181b11b5b758cfa852c0d27465f84ab3b079bb
+https://github.com/llvm/llvm-project.git/commit/8129ba6c70aef54d87893adeb34e76f84fa69fe3
 
 [llvm-commit-msg]
-[ADT] Teach StringRef to derive from std::string_view (#113752)
+[Minidump] Declare MinidumpFile::getListStream in the header instead of extern template (#112568)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/a3181b11b5b758cfa852c0d27465f84a
 55Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/27102024/greenforce-clang-20.0.0git-27102024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/03112024/greenforce-clang-20.0.0git-03112024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/27102024/greenforce-clang-20.0.0git-27102024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/03112024/greenforce-clang-20.0.0git-03112024.tar.xz
 
 [shasum-gzip]
-37370ec77acec6e50cdf964c2bfbaf65daac211e922889fd0c8a76b0b69c9e99
+6bcd87ebef28c29dd42f4ee0cf6e02ddf01d9b463c7e5abae8a429d0f677deec
 
 [shasum-xz]
-ae52191760a2845d9ba04065c8bf7860de8a6ab4971e8db32c4d2c365938d4eb
+31312e6a3edbf121920d060a3a3e8c2bd16ac85edeffcc92253bc0b13097b428
