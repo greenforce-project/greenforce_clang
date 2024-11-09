@@ -1,35 +1,35 @@
 [date]
-3 November 2024
+10 November 2024
 
 [clang-ver]
-gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git 8129ba6c70aef54d87893adeb34e76f84fa69fe3)
+gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git dfe43bd1ca46c59399b7cbbf81b09256232e27f9)
 
 [lld-ver]
-gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git 8129ba6c70aef54d87893adeb34e76f84fa69fe3) (compatible with GNU linkers)
+gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git dfe43bd1ca46c59399b7cbbf81b09256232e27f9) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/8129ba6c70aef54d87893adeb34e76f84fa69fe3
+https://github.com/llvm/llvm-project.git/commit/dfe43bd1ca46c59399b7cbbf81b09256232e27f9
 
 [llvm-commit-msg]
-[Minidump] Declare MinidumpFile::getListStream in the header instead of extern template (#112568)
+[X86] Remove unused includes (NFC) (#115593)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-82Mb
+83Mb
 
 [size-xz]
 55Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/03112024/greenforce-clang-20.0.0git-03112024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/10112024/greenforce-clang-20.0.0git-10112024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/03112024/greenforce-clang-20.0.0git-03112024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/10112024/greenforce-clang-20.0.0git-10112024.tar.xz
 
 [shasum-gzip]
-6bcd87ebef28c29dd42f4ee0cf6e02ddf01d9b463c7e5abae8a429d0f677deec
+95bc464edadfbc347a981d613247a8e386aee3fc3cd7a7bed9f71fb008d34c22
 
 [shasum-xz]
-31312e6a3edbf121920d060a3a3e8c2bd16ac85edeffcc92253bc0b13097b428
+85e62b85311dfefce52e037f2983ba88621e01e6c57a70bd14f7c4b7931fc02e
