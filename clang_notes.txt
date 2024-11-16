@@ -1,35 +1,35 @@
 [date]
-10 November 2024
+17 November 2024
 
 [clang-ver]
-gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git dfe43bd1ca46c59399b7cbbf81b09256232e27f9)
+gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git 71b3b32c6ec8e4691b67b2571b4f44cdd15cb588)
 
 [lld-ver]
-gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git dfe43bd1ca46c59399b7cbbf81b09256232e27f9) (compatible with GNU linkers)
+gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git 71b3b32c6ec8e4691b67b2571b4f44cdd15cb588) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/dfe43bd1ca46c59399b7cbbf81b09256232e27f9
+https://github.com/llvm/llvm-project.git/commit/71b3b32c6ec8e4691b67b2571b4f44cdd15cb588
 
 [llvm-commit-msg]
-[X86] Remove unused includes (NFC) (#115593)
+[Clang] [MS] Add /Zc:tlsGuards option to control tls guard emission (#113830)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-83Mb
+82Mb
 
 [size-xz]
 55Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/10112024/greenforce-clang-20.0.0git-10112024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/17112024/greenforce-clang-20.0.0git-17112024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/10112024/greenforce-clang-20.0.0git-10112024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/17112024/greenforce-clang-20.0.0git-17112024.tar.xz
 
 [shasum-gzip]
-95bc464edadfbc347a981d613247a8e386aee3fc3cd7a7bed9f71fb008d34c22
+fe8af936377e49167a172aba7d4b0ec5917333f9faeeb0c40cff84e754f4fc35
 
 [shasum-xz]
-85e62b85311dfefce52e037f2983ba88621e01e6c57a70bd14f7c4b7931fc02e
+b06ddef527e112cc356d6a42cb2d6eb8a5b0ce991c8ec4bcf02a5eedc52dad97
