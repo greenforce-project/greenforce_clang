@@ -1,35 +1,35 @@
 [date]
-17 November 2024
+24 November 2024
 
 [clang-ver]
-gf clang version 20.0.0git (https://github.com/llvm/llvm-project.git 71b3b32c6ec8e4691b67b2571b4f44cdd15cb588)
+Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git d3ce069572cb565da613df9828ac54f7edb2fc00)
 
 [lld-ver]
-gf LLD 20.0.0 (https://github.com/llvm/llvm-project.git 71b3b32c6ec8e4691b67b2571b4f44cdd15cb588) (compatible with GNU linkers)
+Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git d3ce069572cb565da613df9828ac54f7edb2fc00) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/71b3b32c6ec8e4691b67b2571b4f44cdd15cb588
+https://github.com/llvm/llvm-project.git/commit/d3ce069572cb565da613df9828ac54f7edb2fc00
 
 [llvm-commit-msg]
-[Clang] [MS] Add /Zc:tlsGuards option to control tls guard emission (#113830)
+[AArch64][GlobalISel] Legalize ptr shuffle vector to s64 (#116013)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-82Mb
+165Mb
 
 [size-xz]
-55Mb
+109Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/17112024/greenforce-clang-20.0.0git-17112024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/24112024/greenforce-clang-20.0.0git-24112024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/17112024/greenforce-clang-20.0.0git-17112024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/24112024/greenforce-clang-20.0.0git-24112024.tar.xz
 
 [shasum-gzip]
-fe8af936377e49167a172aba7d4b0ec5917333f9faeeb0c40cff84e754f4fc35
+ba69b7fd407764b4a4a3b26a84a750e26dfc080162f2858bbb4f4148baf924ae
 
 [shasum-xz]
-b06ddef527e112cc356d6a42cb2d6eb8a5b0ce991c8ec4bcf02a5eedc52dad97
+6857343d029ae034c92f44942da7c6e2b4b691c29ede50eae11a9cdcf2009d85
