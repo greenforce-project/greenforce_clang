@@ -1,17 +1,17 @@
 [date]
-24 November 2024
+1 December 2024
 
 [clang-ver]
-Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git d3ce069572cb565da613df9828ac54f7edb2fc00)
+Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git 2e30df740ef0b9f8edb7075768540ce08678023d)
 
 [lld-ver]
-Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git d3ce069572cb565da613df9828ac54f7edb2fc00) (compatible with GNU linkers)
+Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git 2e30df740ef0b9f8edb7075768540ce08678023d) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/d3ce069572cb565da613df9828ac54f7edb2fc00
+https://github.com/llvm/llvm-project.git/commit/2e30df740ef0b9f8edb7075768540ce08678023d
 
 [llvm-commit-msg]
-[AArch64][GlobalISel] Legalize ptr shuffle vector to s64 (#116013)
+[TableGen] Fix validateOperandClass for non Phyical Reg (#118146)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/d3ce069572cb565da613df9828ac54f7
 109Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/24112024/greenforce-clang-20.0.0git-24112024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/01122024/greenforce-clang-20.0.0git-01122024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/24112024/greenforce-clang-20.0.0git-24112024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/01122024/greenforce-clang-20.0.0git-01122024.tar.xz
 
 [shasum-gzip]
-ba69b7fd407764b4a4a3b26a84a750e26dfc080162f2858bbb4f4148baf924ae
+a0bd8ceb44ffda408e02b1bd66a2dea61fa4ea40f178fd009ed758fa8cf43607
 
 [shasum-xz]
-6857343d029ae034c92f44942da7c6e2b4b691c29ede50eae11a9cdcf2009d85
+5c0ca36e1dd70e5cef18b30eaf0ae77995bb36af0a3faeb681a98349716bebbf
