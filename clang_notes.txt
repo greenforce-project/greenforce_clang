@@ -1,35 +1,35 @@
 [date]
-8 December 2024
+15 December 2024
 
 [clang-ver]
-Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git 342c8db381129e908116f1059e97d235b62bcaf2)
+Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git 9ef73d6017584a5ea425f898754bb5d1e03536bb)
 
 [lld-ver]
-Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git 342c8db381129e908116f1059e97d235b62bcaf2) (compatible with GNU linkers)
+Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git 9ef73d6017584a5ea425f898754bb5d1e03536bb) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/342c8db381129e908116f1059e97d235b62bcaf2
+https://github.com/llvm/llvm-project.git/commit/9ef73d6017584a5ea425f898754bb5d1e03536bb
 
 [llvm-commit-msg]
-[rtsan] NFC: Docs update adding links to Disabling, adding a few ` marks (#119075)
+[AArch64] Fix brackets warning in assert. NFC
 
 [host-glibc]
 2.35
 
 [size-gzip]
-165Mb
+183Mb
 
 [size-xz]
-109Mb
+121Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/08122024/greenforce-clang-20.0.0git-08122024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/15122024/greenforce-clang-20.0.0git-15122024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/08122024/greenforce-clang-20.0.0git-08122024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/15122024/greenforce-clang-20.0.0git-15122024.tar.xz
 
 [shasum-gzip]
-ab4c56e5a54601571106f48c0060f1c970c6431bac7fd8cc564f84a506d9b4a7
+ae53ec74b6fe98d9a513cd0db63d471464ee086eccbbe0d44758a61f4dc540b5
 
 [shasum-xz]
-a187f5cd8b6aa7f857d952d73ae370c71b0c8be7f78e957ca338ac700cb4fdc9
+e353ef902aa3a73138b58db3b44e001bd7225f1ae75cffe6f7718f99ed70b3b2
