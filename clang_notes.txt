@@ -1,17 +1,17 @@
 [date]
-15 December 2024
+22 December 2024
 
 [clang-ver]
-Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git 9ef73d6017584a5ea425f898754bb5d1e03536bb)
+Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git e072cffe3b639e8c433138b10ff68dc577497cf8)
 
 [lld-ver]
-Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git 9ef73d6017584a5ea425f898754bb5d1e03536bb) (compatible with GNU linkers)
+Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git e072cffe3b639e8c433138b10ff68dc577497cf8) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/9ef73d6017584a5ea425f898754bb5d1e03536bb
+https://github.com/llvm/llvm-project.git/commit/e072cffe3b639e8c433138b10ff68dc577497cf8
 
 [llvm-commit-msg]
-[AArch64] Fix brackets warning in assert. NFC
+[RISCV] Add immop_oneuse PatLeaf. Use it to replace some PatLeafs with ImmLeaf/IntImmLeaf. NFC (#120804)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/9ef73d6017584a5ea425f898754bb5d1
 121Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/15122024/greenforce-clang-20.0.0git-15122024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/22122024/greenforce-clang-20.0.0git-22122024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/15122024/greenforce-clang-20.0.0git-15122024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/22122024/greenforce-clang-20.0.0git-22122024.tar.xz
 
 [shasum-gzip]
-ae53ec74b6fe98d9a513cd0db63d471464ee086eccbbe0d44758a61f4dc540b5
+10f2f7135aedb9553db446bf6ba344f56c54fb8e4cc72ff50e640c5af7b9c6ea
 
 [shasum-xz]
-e353ef902aa3a73138b58db3b44e001bd7225f1ae75cffe6f7718f99ed70b3b2
+a8bb1f58aa1cccf2664acadeb30ca65f44c697a7254391cbf11ed8c5dead9cad
