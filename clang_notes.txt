@@ -1,17 +1,17 @@
 [date]
-22 December 2024
+29 December 2024
 
 [clang-ver]
-Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git e072cffe3b639e8c433138b10ff68dc577497cf8)
+Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git 3496e96f78c46f5b94c1892f97c470fd89293795)
 
 [lld-ver]
-Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git e072cffe3b639e8c433138b10ff68dc577497cf8) (compatible with GNU linkers)
+Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git 3496e96f78c46f5b94c1892f97c470fd89293795) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/e072cffe3b639e8c433138b10ff68dc577497cf8
+https://github.com/llvm/llvm-project.git/commit/3496e96f78c46f5b94c1892f97c470fd89293795
 
 [llvm-commit-msg]
-[RISCV] Add immop_oneuse PatLeaf. Use it to replace some PatLeafs with ImmLeaf/IntImmLeaf. NFC (#120804)
+[clang][bytecode] Add a missing break
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/e072cffe3b639e8c433138b10ff68dc5
 121Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/22122024/greenforce-clang-20.0.0git-22122024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/29122024/greenforce-clang-20.0.0git-29122024.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/22122024/greenforce-clang-20.0.0git-22122024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/29122024/greenforce-clang-20.0.0git-29122024.tar.xz
 
 [shasum-gzip]
-10f2f7135aedb9553db446bf6ba344f56c54fb8e4cc72ff50e640c5af7b9c6ea
+8f7e37c411f49fa2c9a0dfc21f015a04f5c1ad4fd6ac47b45748e91eee6db271
 
 [shasum-xz]
-a8bb1f58aa1cccf2664acadeb30ca65f44c697a7254391cbf11ed8c5dead9cad
+871816c3b72be77669cea02e07a4bfbfde054f2a0d42e6b143bd495cfbe31931
