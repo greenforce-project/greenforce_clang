@@ -1,17 +1,17 @@
 [date]
-29 December 2024
+5 January 2025
 
 [clang-ver]
-Oxygen clang version 20.0.0git (https://github.com/llvm/llvm-project.git 3496e96f78c46f5b94c1892f97c470fd89293795)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 4a7c0b8afe6bf616cd6bb4f13b5b706a43c10e74)
 
 [lld-ver]
-Oxygen LLD 20.0.0 (https://github.com/llvm/llvm-project.git 3496e96f78c46f5b94c1892f97c470fd89293795) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 4a7c0b8afe6bf616cd6bb4f13b5b706a43c10e74) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/3496e96f78c46f5b94c1892f97c470fd89293795
+https://github.com/llvm/llvm-project.git/commit/4a7c0b8afe6bf616cd6bb4f13b5b706a43c10e74
 
 [llvm-commit-msg]
-[clang][bytecode] Add a missing break
+[LV] Add X86-specific induction step tests.
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/3496e96f78c46f5b94c1892f97c470fd
 121Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/29122024/greenforce-clang-20.0.0git-29122024.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/05012025/greenforce-clang-20.0.0git-05012025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/29122024/greenforce-clang-20.0.0git-29122024.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/05012025/greenforce-clang-20.0.0git-05012025.tar.xz
 
 [shasum-gzip]
-8f7e37c411f49fa2c9a0dfc21f015a04f5c1ad4fd6ac47b45748e91eee6db271
+36ad73fb9f62304f1541c9c8ea08e73bd68ad00712276e8de640c07d6ff9e344
 
 [shasum-xz]
-871816c3b72be77669cea02e07a4bfbfde054f2a0d42e6b143bd495cfbe31931
+f13367b0d87862b199be45df29aa2d62d7ffb2052643fc1c11fbcdc41a961ce6
