@@ -1,35 +1,35 @@
 [date]
-5 January 2025
+12 January 2025
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 4a7c0b8afe6bf616cd6bb4f13b5b706a43c10e74)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git ab9a80a3ad78f611fd06cd6f7215bd828809310c)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 4a7c0b8afe6bf616cd6bb4f13b5b706a43c10e74) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git ab9a80a3ad78f611fd06cd6f7215bd828809310c) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/4a7c0b8afe6bf616cd6bb4f13b5b706a43c10e74
+https://github.com/llvm/llvm-project.git/commit/ab9a80a3ad78f611fd06cd6f7215bd828809310c
 
 [llvm-commit-msg]
-[LV] Add X86-specific induction step tests.
+[DAG] Allow AssertZExt to scalarize. (#122463)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-183Mb
+184Mb
 
 [size-xz]
 121Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/05012025/greenforce-clang-20.0.0git-05012025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/12012025/greenforce-clang-20.0.0git-12012025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/05012025/greenforce-clang-20.0.0git-05012025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/12012025/greenforce-clang-20.0.0git-12012025.tar.xz
 
 [shasum-gzip]
-36ad73fb9f62304f1541c9c8ea08e73bd68ad00712276e8de640c07d6ff9e344
+3bb81f6b26120e512466b2253639d41acfce8cd9deedbec53a02f4e432b3bf1f
 
 [shasum-xz]
-f13367b0d87862b199be45df29aa2d62d7ffb2052643fc1c11fbcdc41a961ce6
+baf8433bb54368c5aede0884cbc4ccec616f9676c8b04cc4882edc8fefbf68c2
