@@ -1,17 +1,17 @@
 [date]
-12 January 2025
+19 January 2025
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git ab9a80a3ad78f611fd06cd6f7215bd828809310c)
+greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git bc386a82686d5f40f9f7325cc41aadc43f09cc79)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git ab9a80a3ad78f611fd06cd6f7215bd828809310c) (compatible with GNU linkers)
+greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git bc386a82686d5f40f9f7325cc41aadc43f09cc79) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/ab9a80a3ad78f611fd06cd6f7215bd828809310c
+https://github.com/llvm/llvm-project.git/commit/bc386a82686d5f40f9f7325cc41aadc43f09cc79
 
 [llvm-commit-msg]
-[DAG] Allow AssertZExt to scalarize. (#122463)
+[TableGen] Replace some uses of make_range with methods that already return a range. NFC (#123453)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/ab9a80a3ad78f611fd06cd6f7215bd82
 121Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/12012025/greenforce-clang-20.0.0git-12012025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/19012025/greenforce-clang-20.0.0git-19012025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/12012025/greenforce-clang-20.0.0git-12012025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/19012025/greenforce-clang-20.0.0git-19012025.tar.xz
 
 [shasum-gzip]
-3bb81f6b26120e512466b2253639d41acfce8cd9deedbec53a02f4e432b3bf1f
+0199d89b37c9b87dcf591a1241979327108c9058278890ea129386851d60c438
 
 [shasum-xz]
-baf8433bb54368c5aede0884cbc4ccec616f9676c8b04cc4882edc8fefbf68c2
+f47be38579dea334af3558646f429fd3d4159d441e5d185bcb58beb88311f6e2
