@@ -1,17 +1,17 @@
 [date]
-26 January 2025
+2 February 2025
 
 [clang-ver]
-greenforce clang version 20.0.0git (https://github.com/llvm/llvm-project.git 14b44179cb61dd551c911dea54de57b588621005)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 06130ed341ddbf697045731300651fbbcb63f0ff)
 
 [lld-ver]
-greenforce LLD 20.0.0 (https://github.com/llvm/llvm-project.git 14b44179cb61dd551c911dea54de57b588621005) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 06130ed341ddbf697045731300651fbbcb63f0ff) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/14b44179cb61dd551c911dea54de57b588621005
+https://github.com/llvm/llvm-project.git/commit/06130ed341ddbf697045731300651fbbcb63f0ff
 
 [llvm-commit-msg]
-[libc++][format][3/3] Improves formatting performance. (#108990)
+Reapply "[clang][bytecode] Stack-allocate bottom function frame" (#12… (#125349)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/14b44179cb61dd551c911dea54de57b5
 122Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/26012025/greenforce-clang-20.0.0git-26012025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/02022025/greenforce-clang-21.0.0git-02022025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/26012025/greenforce-clang-20.0.0git-26012025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/02022025/greenforce-clang-21.0.0git-02022025.tar.xz
 
 [shasum-gzip]
-3c5b45a065540aa5e7d7a503246506a4e06da307eafcccbb09a5172450919070
+d80eca2d39f881900ee5f3ad9a398260b15e247cdbafdd4d4fa73e9d467f63fd
 
 [shasum-xz]
-6350e8a4d8f50e43ebc37b8714ca7381175b8c1b56db6a94b74d8109956a2c0c
+7dbaa8d35a0a91286e12aa034f0cdbd3dc95940df2d5535225ec8a50e37d2dd7
