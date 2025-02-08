@@ -1,35 +1,35 @@
 [date]
-2 February 2025
+9 February 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 06130ed341ddbf697045731300651fbbcb63f0ff)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 7f2f905361558b9137855b00debfdcc5eb057729)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 06130ed341ddbf697045731300651fbbcb63f0ff) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 7f2f905361558b9137855b00debfdcc5eb057729) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/06130ed341ddbf697045731300651fbbcb63f0ff
+https://github.com/llvm/llvm-project.git/commit/7f2f905361558b9137855b00debfdcc5eb057729
 
 [llvm-commit-msg]
-Reapply "[clang][bytecode] Stack-allocate bottom function frame" (#12… (#125349)
+[SandboxVec] Fix: Add missing lit.local.cfg for target test
 
 [host-glibc]
 2.35
 
 [size-gzip]
-184Mb
+185Mb
 
 [size-xz]
 122Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/02022025/greenforce-clang-21.0.0git-02022025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/09022025/greenforce-clang-21.0.0git-09022025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/02022025/greenforce-clang-21.0.0git-02022025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/09022025/greenforce-clang-21.0.0git-09022025.tar.xz
 
 [shasum-gzip]
-d80eca2d39f881900ee5f3ad9a398260b15e247cdbafdd4d4fa73e9d467f63fd
+d32ebb8ae0e89d7dd3f9fc358c35c8f27ffc5788eb4b94aec2dceaa1a6d71cf1
 
 [shasum-xz]
-7dbaa8d35a0a91286e12aa034f0cdbd3dc95940df2d5535225ec8a50e37d2dd7
+8d2cf44620603621bec36faca9e5fbe413c3c3f2e68f882b6c4928b484175b2f
