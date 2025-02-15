@@ -1,17 +1,17 @@
 [date]
-9 February 2025
+16 February 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 7f2f905361558b9137855b00debfdcc5eb057729)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git bfdf30e9b3d0b49344a651a5c7cd87be31d255c4)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 7f2f905361558b9137855b00debfdcc5eb057729) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git bfdf30e9b3d0b49344a651a5c7cd87be31d255c4) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/7f2f905361558b9137855b00debfdcc5eb057729
+https://github.com/llvm/llvm-project.git/commit/bfdf30e9b3d0b49344a651a5c7cd87be31d255c4
 
 [llvm-commit-msg]
-[SandboxVec] Fix: Add missing lit.local.cfg for target test
+[AArch64] Add patterns for addv(sext) and addv(zext)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/7f2f905361558b9137855b00debfdcc5
 122Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/09022025/greenforce-clang-21.0.0git-09022025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/16022025/greenforce-clang-21.0.0git-16022025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/09022025/greenforce-clang-21.0.0git-09022025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/16022025/greenforce-clang-21.0.0git-16022025.tar.xz
 
 [shasum-gzip]
-d32ebb8ae0e89d7dd3f9fc358c35c8f27ffc5788eb4b94aec2dceaa1a6d71cf1
+09eee218f54bc1a955620977144b70e40f99f388fd7e85dc241f86207c834e29
 
 [shasum-xz]
-8d2cf44620603621bec36faca9e5fbe413c3c3f2e68f882b6c4928b484175b2f
+7442678ab69649941f9c42aa89f888c4360738506e6143541e40991283ae370e
