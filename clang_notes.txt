@@ -1,35 +1,35 @@
 [date]
-16 February 2025
+23 February 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git bfdf30e9b3d0b49344a651a5c7cd87be31d255c4)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git bb6a273d9ab9ee90dbb957e541f4d810fffb22ee)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git bfdf30e9b3d0b49344a651a5c7cd87be31d255c4) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git bb6a273d9ab9ee90dbb957e541f4d810fffb22ee) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/bfdf30e9b3d0b49344a651a5c7cd87be31d255c4
+https://github.com/llvm/llvm-project.git/commit/bb6a273d9ab9ee90dbb957e541f4d810fffb22ee
 
 [llvm-commit-msg]
-[AArch64] Add patterns for addv(sext) and addv(zext)
+[lldb] Fix manual CURSES_LIBRARIES tinfo finding (#128245)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-185Mb
+179Mb
 
 [size-xz]
-122Mb
+119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/16022025/greenforce-clang-21.0.0git-16022025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/23022025/greenforce-clang-21.0.0git-23022025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/16022025/greenforce-clang-21.0.0git-16022025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/23022025/greenforce-clang-21.0.0git-23022025.tar.xz
 
 [shasum-gzip]
-09eee218f54bc1a955620977144b70e40f99f388fd7e85dc241f86207c834e29
+437337eca6523516c1e4048ea6b5cf8487c79b760da3beb5c5844b42420d2c31
 
 [shasum-xz]
-7442678ab69649941f9c42aa89f888c4360738506e6143541e40991283ae370e
+912ba5ad7843663a6e62f85550b7a62bee022ef633fd2b400e423a0cb89a1998
