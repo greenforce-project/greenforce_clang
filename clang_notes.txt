@@ -1,17 +1,17 @@
 [date]
-2 March 2025
+9 March 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git bc35510725e5d55f7798cc6eb3be7e5f19c38d59)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git aff6ab9d90d23c46bc5f4b909d54bfa9c95c9f03)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git bc35510725e5d55f7798cc6eb3be7e5f19c38d59) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git aff6ab9d90d23c46bc5f4b909d54bfa9c95c9f03) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/bc35510725e5d55f7798cc6eb3be7e5f19c38d59
+https://github.com/llvm/llvm-project.git/commit/aff6ab9d90d23c46bc5f4b909d54bfa9c95c9f03
 
 [llvm-commit-msg]
-[InstSimplify] Fold `X * C >= X` to `true` (#129352)
+[clang][bytecode] Surround bcp condition with Start/EndSpeculation (#130427)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/bc35510725e5d55f7798cc6eb3be7e5f
 119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/02032025/greenforce-clang-21.0.0git-02032025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/09032025/greenforce-clang-21.0.0git-09032025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/02032025/greenforce-clang-21.0.0git-02032025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/09032025/greenforce-clang-21.0.0git-09032025.tar.xz
 
 [shasum-gzip]
-279df54c1825fac137e5d2cf6dbd1bcb24611c8009c4d62fe21feacb85e79071
+f7f9c1a802d0cc9f8fb30da88f2d567d24f27af9fce002ddf5e8112aa8ace34a
 
 [shasum-xz]
-d803f90362745ec2fe46de33d9e26717eef3445dac914cf0784e12c44ef6bcfe
+489a071c6f89f8ed9f18af18819377a3e6f48a8b8edfac29a6aea5c0b9a60f6e
