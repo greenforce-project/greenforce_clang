@@ -1,17 +1,17 @@
 [date]
-9 March 2025
+16 March 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git aff6ab9d90d23c46bc5f4b909d54bfa9c95c9f03)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 86ae25d2be59d57b3d215de03ee685c39e509c9f)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git aff6ab9d90d23c46bc5f4b909d54bfa9c95c9f03) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 86ae25d2be59d57b3d215de03ee685c39e509c9f) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/aff6ab9d90d23c46bc5f4b909d54bfa9c95c9f03
+https://github.com/llvm/llvm-project.git/commit/86ae25d2be59d57b3d215de03ee685c39e509c9f
 
 [llvm-commit-msg]
-[clang][bytecode] Surround bcp condition with Start/EndSpeculation (#130427)
+[CodeGen][X86] Use Register in TTI unfoldMemoryOperand interface. NFC
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/aff6ab9d90d23c46bc5f4b909d54bfa9
 119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/09032025/greenforce-clang-21.0.0git-09032025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/16032025/greenforce-clang-21.0.0git-16032025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/09032025/greenforce-clang-21.0.0git-09032025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/16032025/greenforce-clang-21.0.0git-16032025.tar.xz
 
 [shasum-gzip]
-f7f9c1a802d0cc9f8fb30da88f2d567d24f27af9fce002ddf5e8112aa8ace34a
+24250b85c6e3f9c8d7e9631601770a00f3a5b4046ac557560499c227767791d8
 
 [shasum-xz]
-489a071c6f89f8ed9f18af18819377a3e6f48a8b8edfac29a6aea5c0b9a60f6e
+0aefc3e7d0f2f3fd58930094eb108f6b8d71a987a58ad704c08238e3e26dcf17
