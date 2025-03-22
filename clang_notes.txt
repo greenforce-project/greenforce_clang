@@ -1,17 +1,17 @@
 [date]
-16 March 2025
+23 March 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 86ae25d2be59d57b3d215de03ee685c39e509c9f)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 973ea045aa89febc533cea165e78686e976b3805)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 86ae25d2be59d57b3d215de03ee685c39e509c9f) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 973ea045aa89febc533cea165e78686e976b3805) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/86ae25d2be59d57b3d215de03ee685c39e509c9f
+https://github.com/llvm/llvm-project.git/commit/973ea045aa89febc533cea165e78686e976b3805
 
 [llvm-commit-msg]
-[CodeGen][X86] Use Register in TTI unfoldMemoryOperand interface. NFC
+Revert "[Analysis][EphemeralValuesAnalysis][NFCI] Remove EphemeralValuesCache class (#132454)"
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/86ae25d2be59d57b3d215de03ee685c3
 119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/16032025/greenforce-clang-21.0.0git-16032025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/23032025/greenforce-clang-21.0.0git-23032025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/16032025/greenforce-clang-21.0.0git-16032025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/23032025/greenforce-clang-21.0.0git-23032025.tar.xz
 
 [shasum-gzip]
-24250b85c6e3f9c8d7e9631601770a00f3a5b4046ac557560499c227767791d8
+57b601abc16b424ffbe1337fe9bf45ecfef181bbd6039554d1c6dbc9bbcaa2d2
 
 [shasum-xz]
-0aefc3e7d0f2f3fd58930094eb108f6b8d71a987a58ad704c08238e3e26dcf17
+7fa2a318bfe9ee2ac2ceb2caf1f91de044fb63cd30267846979b2fe5d47672c6
