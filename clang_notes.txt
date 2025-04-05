@@ -1,17 +1,17 @@
 [date]
-30 March 2025
+6 April 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git e16541e1a6c02b32124e8893b29882bff072fd46)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 6ac5cbdd29b630259432fc5b478cd2ddf78a17cd)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git e16541e1a6c02b32124e8893b29882bff072fd46) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 6ac5cbdd29b630259432fc5b478cd2ddf78a17cd) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/e16541e1a6c02b32124e8893b29882bff072fd46
+https://github.com/llvm/llvm-project.git/commit/6ac5cbdd29b630259432fc5b478cd2ddf78a17cd
 
 [llvm-commit-msg]
-[libc++] fix `flat_set`'s transparent `insert` (#133402)
+[NFC][LLVM] Eliminate duplicate code in INITIALIZE_PASS macros (#134457)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/e16541e1a6c02b32124e8893b29882bf
 119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/30032025/greenforce-clang-21.0.0git-30032025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/06042025/greenforce-clang-21.0.0git-06042025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/30032025/greenforce-clang-21.0.0git-30032025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/06042025/greenforce-clang-21.0.0git-06042025.tar.xz
 
 [shasum-gzip]
-7c895e3aa2108c86bb40b2aba98c27cc92b528f0a074b0e0be827c67749f848d
+9c6467e32a1c9703e61bc0180e6c0282726fe1a86045857cd334884653fccc27
 
 [shasum-xz]
-9592d604b38341686a72685b41cb314ec05542d2fff0ba16694a38c2912661c8
+6166080cfbb32f8cb6efb3d16d27d9ffa043dc3e880c61745a2b84fde1489583
