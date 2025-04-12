@@ -1,17 +1,17 @@
 [date]
-6 April 2025
+13 April 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 6ac5cbdd29b630259432fc5b478cd2ddf78a17cd)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 009971a0d3218d3af0d10fb70d2c876ccc46b24d)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 6ac5cbdd29b630259432fc5b478cd2ddf78a17cd) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 009971a0d3218d3af0d10fb70d2c876ccc46b24d) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/6ac5cbdd29b630259432fc5b478cd2ddf78a17cd
+https://github.com/llvm/llvm-project.git/commit/009971a0d3218d3af0d10fb70d2c876ccc46b24d
 
 [llvm-commit-msg]
-[NFC][LLVM] Eliminate duplicate code in INITIALIZE_PASS macros (#134457)
+[TableGen] Accurately calculate where the source variable ops start in PseudoLoweringEmitter::emitLoweringEmitter. (#135465)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/6ac5cbdd29b630259432fc5b478cd2dd
 119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/06042025/greenforce-clang-21.0.0git-06042025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/13042025/greenforce-clang-21.0.0git-13042025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/06042025/greenforce-clang-21.0.0git-06042025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/13042025/greenforce-clang-21.0.0git-13042025.tar.xz
 
 [shasum-gzip]
-9c6467e32a1c9703e61bc0180e6c0282726fe1a86045857cd334884653fccc27
+26984a3f845840f5fcdabf74875fe25e0bf12489ca32d3f6d318d9695b44eede
 
 [shasum-xz]
-6166080cfbb32f8cb6efb3d16d27d9ffa043dc3e880c61745a2b84fde1489583
+603b6310729b59c2003bf0db60dd3eafdadbc496436e140f6eea74af23e3d2bd
