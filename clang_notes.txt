@@ -1,17 +1,17 @@
 [date]
-13 April 2025
+20 April 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 009971a0d3218d3af0d10fb70d2c876ccc46b24d)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git d46c7334e86040a71b4002786fe021ebf6946694)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 009971a0d3218d3af0d10fb70d2c876ccc46b24d) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git d46c7334e86040a71b4002786fe021ebf6946694) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/009971a0d3218d3af0d10fb70d2c876ccc46b24d
+https://github.com/llvm/llvm-project.git/commit/d46c7334e86040a71b4002786fe021ebf6946694
 
 [llvm-commit-msg]
-[TableGen] Accurately calculate where the source variable ops start in PseudoLoweringEmitter::emitLoweringEmitter. (#135465)
+[Scalar] Avoid repeated hash lookups (NFC) (#136264)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/009971a0d3218d3af0d10fb70d2c876c
 119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/13042025/greenforce-clang-21.0.0git-13042025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20042025/greenforce-clang-21.0.0git-20042025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/13042025/greenforce-clang-21.0.0git-13042025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20042025/greenforce-clang-21.0.0git-20042025.tar.xz
 
 [shasum-gzip]
-26984a3f845840f5fcdabf74875fe25e0bf12489ca32d3f6d318d9695b44eede
+c660cb7a7a889555c1f65b2c31bc9b99d5d8b7eb59e136c7cbfb0e709830e733
 
 [shasum-xz]
-603b6310729b59c2003bf0db60dd3eafdadbc496436e140f6eea74af23e3d2bd
+6afbfc6d46bab70facdeb35bdc78313e73d63e3504f9e8686f33713273891801
