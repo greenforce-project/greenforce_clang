@@ -1,35 +1,35 @@
 [date]
-27 April 2025
+4 May 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git ccdd55c518277d749eff878ffcb5ca3de55c2a60)
+greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 0b96d22f95eeef00ec40723f0d59ccb4389dc1b6)
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git ccdd55c518277d749eff878ffcb5ca3de55c2a60) (compatible with GNU linkers)
+greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 0b96d22f95eeef00ec40723f0d59ccb4389dc1b6) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/ccdd55c518277d749eff878ffcb5ca3de55c2a60
+https://github.com/llvm/llvm-project.git/commit/0b96d22f95eeef00ec40723f0d59ccb4389dc1b6
 
 [llvm-commit-msg]
-[clang] Fix unused variable warning in MS mangler from constant matrix patch
+[SPIRV] Use StringRef instead of std::string (NFC) (#138408)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-180Mb
+181Mb
 
 [size-xz]
 119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/27042025/greenforce-clang-21.0.0git-27042025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/04052025/greenforce-clang-21.0.0git-04052025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/27042025/greenforce-clang-21.0.0git-27042025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/04052025/greenforce-clang-21.0.0git-04052025.tar.xz
 
 [shasum-gzip]
-87aa13b0f77426757d33d79b66bf68dfa971b04eb43e10bb97d5079d41007a55
+597f377aa2d6a9a4f29571a25c17183f349c14c19fa2e9d536a09556194af24d
 
 [shasum-xz]
-686b6739213d59e8965d7bebbb76ec62425156f678a48b444cf06d77be07bfdb
+7472d77c6c6974f479997d91a398043b5de208ee7d18c089fcfca223e4e1c637
