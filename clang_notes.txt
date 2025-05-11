@@ -2,34 +2,34 @@
 11 May 2025
 
 [clang-ver]
-greenforce clang version 21.0.0git (https://github.com/llvm/llvm-project.git 0c83a0b7f4279c3ed9e8db14fbebae15145f4df2)
+greenforce clang version 17.0.6
 
 [lld-ver]
-greenforce LLD 21.0.0 (https://github.com/llvm/llvm-project.git 0c83a0b7f4279c3ed9e8db14fbebae15145f4df2) (compatible with GNU linkers)
+greenforce LLD 17.0.6 (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/0c83a0b7f4279c3ed9e8db14fbebae15145f4df2
+https://github.com/greenforce-project/llvm-project.git/commit/5699245690ef1db814abf8abbe8b74ad31e5af87
 
 [llvm-commit-msg]
-[modularize] Use default member initialization for Location (NFC) (#139384)
+Remove repository URL from version
 
 [host-glibc]
 2.35
 
 [size-gzip]
-181Mb
+150Mb
 
 [size-xz]
-120Mb
+99Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/11052025/greenforce-clang-21.0.0git-11052025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/11052025/greenforce-clang-17.0.6-11052025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/11052025/greenforce-clang-21.0.0git-11052025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/11052025/greenforce-clang-17.0.6-11052025.tar.xz
 
 [shasum-gzip]
-db47ef0c4c0e6969d1648ee5b6c574b5b3d318dd4053fb3b6b35de95eee9f08f
+32857969842c8a843a5e6295530a4d52a05b704c28d76622dd4674363961cd07
 
 [shasum-xz]
-a1e43082be49ebb1d627f411df89bdb8b9414f4e0a94a9b11b749783418caf5a
+edfe951a4958ba4e5e6d0289efa6da0e15249d9a242fdb266a8591070baf9a9a
