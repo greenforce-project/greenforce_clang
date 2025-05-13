@@ -12,7 +12,7 @@ To install and initialize Greenforce Clang on your server, run the following com
 
 ```bash
 
-source <(curl -sL https://github.com/greenforce-project/greenforce_clang/raw/refs/heads/main/get_latest_url.sh) && wget "$LATEST_URL_GZ" -O gf.tar.gz && mkdir -p ~/greenforce-clang && tar -xzf gf.tar.gz --strip-components=1 -C ~/greenforce-clang && rm gf.tar.gz
+bash <(wget -qO- https://raw.githubusercontent.com/greenforce-project/greenforce_clang/refs/heads/main/get_clang.sh)
 
 ```
 
@@ -20,7 +20,7 @@ Ensure the toolchain is included in your PATH:
 
 ```bash
 
-export PATH="~/greenforce-clang/bin:$PATH"
+export PATH="$(pwd)/greenforce-clang/bin:$PATH"
 
 ```
 
