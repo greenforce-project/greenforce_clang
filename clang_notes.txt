@@ -2,13 +2,13 @@
 13 May 2025
 
 [clang-ver]
-clang version 17.0.6
+clang version 12.0.1
 
 [lld-ver]
-LLD 17.0.6 (compatible with GNU linkers)
+LLD 12.0.1 (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/greenforce-project/llvm-project/commit/5699245690ef1db814abf8abbe8b74ad31e5af87
+https://github.com/greenforce-project/llvm-project/commit/1217689e625ffb31479d8465e4f6ad66dc0fcb64
 
 [llvm-commit-msg]
 Remove repository URL from version
@@ -17,10 +17,10 @@ Remove repository URL from version
 2.35
 
 [size-gzip]
-87Mb
+72Mb
 
 [size-xz]
-58Mb
+47Mb
 
 [link-rel-gzip]
 https://github.com/greenforce-project/greenforce_clang/releases/download/13052025/greenforce-clang--13052025.tar.gz
@@ -29,7 +29,7 @@ https://github.com/greenforce-project/greenforce_clang/releases/download/1305202
 https://github.com/greenforce-project/greenforce_clang/releases/download/13052025/greenforce-clang--13052025.tar.xz
 
 [shasum-gzip]
-ce8b5c968c9b15c90956c980b22226cc3e6dcd2f74ef4912a644a2fe7e643b13
+6f9b291db4caf1e98790c062d90d2292002ef632e65e11d88974a0e2e9393301
 
 [shasum-xz]
-e2aecaefeb0b1e6d09b05a0e254b6e32d4b9ba497fe15afc81beb1ba05e87aac
+6fd5d277824816cebbe65096af1a9950f395e6f1b44dc336a3c873083b7e7f87
