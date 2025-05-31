@@ -1,35 +1,35 @@
 [date]
-13 May 2025
+1 June 2025
 
 [clang-ver]
-clang version 12.0.1
+Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 81602769d830e6791200e8cc7dd10a3afc32570b)
 
 [lld-ver]
-LLD 12.0.1 (compatible with GNU linkers)
+Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 81602769d830e6791200e8cc7dd10a3afc32570b) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/greenforce-project/llvm-project/commit/1217689e625ffb31479d8465e4f6ad66dc0fcb64
+https://github.com/llvm/llvm-project.git/commit/81602769d830e6791200e8cc7dd10a3afc32570b
 
 [llvm-commit-msg]
-Remove repository URL from version
+[lldb-dap] Synchronously wait for breakpoints resolves in tests (#140470)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-72Mb
+182Mb
 
 [size-xz]
-47Mb
+120Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/13052025/greenforce-clang--13052025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/01062025/greenforce-clang-21.0.0git-01062025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/13052025/greenforce-clang--13052025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/01062025/greenforce-clang-21.0.0git-01062025.tar.xz
 
 [shasum-gzip]
-6f9b291db4caf1e98790c062d90d2292002ef632e65e11d88974a0e2e9393301
+bea4bea9f0a220d32ff1fd57af94ee2390dabb2ca5a41c90c2bc78674cbc6d4c
 
 [shasum-xz]
-6fd5d277824816cebbe65096af1a9950f395e6f1b44dc336a3c873083b7e7f87
+624f8901f51ba5754b00889e8a8ea960bb0823290913459c337e70a3e62b1464
