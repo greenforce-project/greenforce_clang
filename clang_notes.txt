@@ -1,17 +1,17 @@
 [date]
-1 June 2025
+8 June 2025
 
 [clang-ver]
-Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 81602769d830e6791200e8cc7dd10a3afc32570b)
+Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 7dbae40c94fc39727b847e3db0aed0cf19adc3ce)
 
 [lld-ver]
-Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 81602769d830e6791200e8cc7dd10a3afc32570b) (compatible with GNU linkers)
+Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 7dbae40c94fc39727b847e3db0aed0cf19adc3ce) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/81602769d830e6791200e8cc7dd10a3afc32570b
+https://github.com/llvm/llvm-project.git/commit/7dbae40c94fc39727b847e3db0aed0cf19adc3ce
 
 [llvm-commit-msg]
-[lldb-dap] Synchronously wait for breakpoints resolves in tests (#140470)
+[NFC][Clang] Adopt simplified `getTrailingObjects` in ParsedTemplate (#143255)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/81602769d830e6791200e8cc7dd10a3a
 120Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/01062025/greenforce-clang-21.0.0git-01062025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/08062025/greenforce-clang-21.0.0git-08062025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/01062025/greenforce-clang-21.0.0git-01062025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/08062025/greenforce-clang-21.0.0git-08062025.tar.xz
 
 [shasum-gzip]
-bea4bea9f0a220d32ff1fd57af94ee2390dabb2ca5a41c90c2bc78674cbc6d4c
+ca6b57a6ef45514ae82d751c8ae2a87eb189e26eaace0d633a5af433b623e646
 
 [shasum-xz]
-624f8901f51ba5754b00889e8a8ea960bb0823290913459c337e70a3e62b1464
+5c8d16e33db6bf04cac6734577fde25ec9e2cec4d933a7f607621c1c60fec663
