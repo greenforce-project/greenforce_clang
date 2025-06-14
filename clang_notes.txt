@@ -1,35 +1,35 @@
 [date]
-8 June 2025
+15 June 2025
 
 [clang-ver]
-Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 7dbae40c94fc39727b847e3db0aed0cf19adc3ce)
+Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 577199f9221ebc805a69372a2b19f4c8ebaf1daf)
 
 [lld-ver]
-Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 7dbae40c94fc39727b847e3db0aed0cf19adc3ce) (compatible with GNU linkers)
+Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 577199f9221ebc805a69372a2b19f4c8ebaf1daf) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/7dbae40c94fc39727b847e3db0aed0cf19adc3ce
+https://github.com/llvm/llvm-project.git/commit/577199f9221ebc805a69372a2b19f4c8ebaf1daf
 
 [llvm-commit-msg]
-[NFC][Clang] Adopt simplified `getTrailingObjects` in ParsedTemplate (#143255)
+Reapply "[VPlan] Set branch weight metadata on middle term in VPlan (NFC) (#143035)"
 
 [host-glibc]
 2.35
 
 [size-gzip]
-182Mb
+181Mb
 
 [size-xz]
-120Mb
+119Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/08062025/greenforce-clang-21.0.0git-08062025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/15062025/greenforce-clang-21.0.0git-15062025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/08062025/greenforce-clang-21.0.0git-08062025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/15062025/greenforce-clang-21.0.0git-15062025.tar.xz
 
 [shasum-gzip]
-ca6b57a6ef45514ae82d751c8ae2a87eb189e26eaace0d633a5af433b623e646
+e022b65a019b74fe5dc8cc886c7ff462a0803bac67ab2aa95f56e0e3671d8dfe
 
 [shasum-xz]
-5c8d16e33db6bf04cac6734577fde25ec9e2cec4d933a7f607621c1c60fec663
+e4ee0f8cf6a7e546afda9ac88071db626e566597cfea7d0d861d4d37d2c54dad
