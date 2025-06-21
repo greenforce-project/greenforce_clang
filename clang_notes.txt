@@ -1,17 +1,17 @@
 [date]
-15 June 2025
+22 June 2025
 
 [clang-ver]
-Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 577199f9221ebc805a69372a2b19f4c8ebaf1daf)
+Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 9f7a15539441cc589c4116de43e752c9c62cafef)
 
 [lld-ver]
-Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 577199f9221ebc805a69372a2b19f4c8ebaf1daf) (compatible with GNU linkers)
+Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 9f7a15539441cc589c4116de43e752c9c62cafef) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/577199f9221ebc805a69372a2b19f4c8ebaf1daf
+https://github.com/llvm/llvm-project.git/commit/9f7a15539441cc589c4116de43e752c9c62cafef
 
 [llvm-commit-msg]
-Reapply "[VPlan] Set branch weight metadata on middle term in VPlan (NFC) (#143035)"
+[VPlan] Update packScalarIntoVector to take and return wide value (NFC)
 
 [host-glibc]
 2.35
@@ -20,16 +20,16 @@ Reapply "[VPlan] Set branch weight metadata on middle term in VPlan (NFC) (#1430
 181Mb
 
 [size-xz]
-119Mb
+120Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/15062025/greenforce-clang-21.0.0git-15062025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/22062025/greenforce-clang-21.0.0git-22062025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/15062025/greenforce-clang-21.0.0git-15062025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/22062025/greenforce-clang-21.0.0git-22062025.tar.xz
 
 [shasum-gzip]
-e022b65a019b74fe5dc8cc886c7ff462a0803bac67ab2aa95f56e0e3671d8dfe
+dab34089a40ee7555e259faf0823383ef7df3a3c21016e3897b5b6bed319dee5
 
 [shasum-xz]
-e4ee0f8cf6a7e546afda9ac88071db626e566597cfea7d0d861d4d37d2c54dad
+eb7f4134c8d93a5b309b8f692147adb5959a440e4fb8df3ada8a9b195d8e88d5
