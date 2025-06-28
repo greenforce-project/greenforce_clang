@@ -1,17 +1,17 @@
 [date]
-22 June 2025
+29 June 2025
 
 [clang-ver]
-Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 9f7a15539441cc589c4116de43e752c9c62cafef)
+Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git a9295ad4d2d3278070f9c71a81e05079a48c740f)
 
 [lld-ver]
-Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 9f7a15539441cc589c4116de43e752c9c62cafef) (compatible with GNU linkers)
+Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git a9295ad4d2d3278070f9c71a81e05079a48c740f) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/9f7a15539441cc589c4116de43e752c9c62cafef
+https://github.com/llvm/llvm-project.git/commit/a9295ad4d2d3278070f9c71a81e05079a48c740f
 
 [llvm-commit-msg]
-[VPlan] Update packScalarIntoVector to take and return wide value (NFC)
+AArch64: Replace deprecated MCExpr::print with MCAsmInfo::printExpr
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/9f7a15539441cc589c4116de43e752c9
 120Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/22062025/greenforce-clang-21.0.0git-22062025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/29062025/greenforce-clang-21.0.0git-29062025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/22062025/greenforce-clang-21.0.0git-22062025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/29062025/greenforce-clang-21.0.0git-29062025.tar.xz
 
 [shasum-gzip]
-dab34089a40ee7555e259faf0823383ef7df3a3c21016e3897b5b6bed319dee5
+0f494556cb60772b6fc69e494f19a241362bba260a1ca9c332e098b5d203ed23
 
 [shasum-xz]
-eb7f4134c8d93a5b309b8f692147adb5959a440e4fb8df3ada8a9b195d8e88d5
+90bc6df279d5fb5aa4178ff6db66ce6bd9cd0d579821e94693dd0d7b1102b983
