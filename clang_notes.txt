@@ -1,35 +1,35 @@
 [date]
-6 July 2025
+13 July 2025
 
 [clang-ver]
-Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git 7d65cb1952dc77f1562659fafcb512ddd1a488fa)
+Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git cf10a09394795eac3b873395f1905cd0ca40beda)
 
 [lld-ver]
-Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git 7d65cb1952dc77f1562659fafcb512ddd1a488fa) (compatible with GNU linkers)
+Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git cf10a09394795eac3b873395f1905cd0ca40beda) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/7d65cb1952dc77f1562659fafcb512ddd1a488fa
+https://github.com/llvm/llvm-project.git/commit/cf10a09394795eac3b873395f1905cd0ca40beda
 
 [llvm-commit-msg]
-[ARM] Copy (SELECT_CC setgt, iN lhs, -1, 1, -1) -> (OR (ASR lhs, N-1), 1 from AArch64 to ARM (#146561)
+[Maintainers] Fix flang maintainers file name (#148382)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-181Mb
+86Mb
 
 [size-xz]
-120Mb
+57Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/06072025/greenforce-clang-21.0.0git-06072025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/13072025/greenforce-clang-21.0.0git-13072025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/06072025/greenforce-clang-21.0.0git-06072025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/13072025/greenforce-clang-21.0.0git-13072025.tar.xz
 
 [shasum-gzip]
-6036ed1164745e9e3201ea49b5e6dd5fa19a2bde625618b7e180b467993c50c2
+d36be507a405d211f0e928e033fc27b84aa4eaecbe99e682982461883b565506
 
 [shasum-xz]
-f87fe33e508db51546f2b84eec7c567681eca7e54640abf6a33ed90571e6537a
+4d897055d6693f6b93c336ce350e9c99ac58df61f7c339611a0f5de10ab84782
