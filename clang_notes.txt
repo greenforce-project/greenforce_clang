@@ -1,17 +1,17 @@
 [date]
-13 July 2025
+20 July 2025
 
 [clang-ver]
-Gf clang version 21.0.0git (https://github.com/llvm/llvm-project.git cf10a09394795eac3b873395f1905cd0ca40beda)
+Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 1fcf49a35c4ffce2c0a8baf8a045c031f783ccff)
 
 [lld-ver]
-Gf LLD 21.0.0 (https://github.com/llvm/llvm-project.git cf10a09394795eac3b873395f1905cd0ca40beda) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 1fcf49a35c4ffce2c0a8baf8a045c031f783ccff) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/cf10a09394795eac3b873395f1905cd0ca40beda
+https://github.com/llvm/llvm-project.git/commit/1fcf49a35c4ffce2c0a8baf8a045c031f783ccff
 
 [llvm-commit-msg]
-[Maintainers] Fix flang maintainers file name (#148382)
+MC: Replace FT_PseudoProbe with FT_LEB
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/cf10a09394795eac3b873395f1905cd0
 57Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/13072025/greenforce-clang-21.0.0git-13072025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20072025/greenforce-clang-22.0.0git-20072025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/13072025/greenforce-clang-21.0.0git-13072025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20072025/greenforce-clang-22.0.0git-20072025.tar.xz
 
 [shasum-gzip]
-d36be507a405d211f0e928e033fc27b84aa4eaecbe99e682982461883b565506
+29939fca5da7cd3b434a3626a54ee070cb7e1395c4c1fd9e71e55d02ed06b4ad
 
 [shasum-xz]
-4d897055d6693f6b93c336ce350e9c99ac58df61f7c339611a0f5de10ab84782
+e72b9423659ab696506390cfd419d832a5650786390712aa66774d225a07065e
