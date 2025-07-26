@@ -1,35 +1,35 @@
 [date]
-20 July 2025
+27 July 2025
 
 [clang-ver]
-Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 1fcf49a35c4ffce2c0a8baf8a045c031f783ccff)
+clang version 22.0.0git (https://github.com/llvm/llvm-project.git a7516dd38c60351876032a7d016b889dd4f8aa23)
 
 [lld-ver]
-Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 1fcf49a35c4ffce2c0a8baf8a045c031f783ccff) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git a7516dd38c60351876032a7d016b889dd4f8aa23) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/1fcf49a35c4ffce2c0a8baf8a045c031f783ccff
+https://github.com/llvm/llvm-project.git/commit/a7516dd38c60351876032a7d016b889dd4f8aa23
 
 [llvm-commit-msg]
-MC: Replace FT_PseudoProbe with FT_LEB
+[BOLT] Remove Uses of %T From Lit Tests (#150716)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-86Mb
+b
 
 [size-xz]
-57Mb
+b
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20072025/greenforce-clang-22.0.0git-20072025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/27072025/greenforce-clang-(https://github.com/llvm/llvm-project.git-27072025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20072025/greenforce-clang-22.0.0git-20072025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/27072025/greenforce-clang-(https://github.com/llvm/llvm-project.git-27072025.tar.xz
 
 [shasum-gzip]
-29939fca5da7cd3b434a3626a54ee070cb7e1395c4c1fd9e71e55d02ed06b4ad
+
 
 [shasum-xz]
-e72b9423659ab696506390cfd419d832a5650786390712aa66774d225a07065e
+
