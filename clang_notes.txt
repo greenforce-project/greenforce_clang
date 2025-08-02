@@ -1,35 +1,35 @@
 [date]
-27 July 2025
+3 August 2025
 
 [clang-ver]
-clang version 22.0.0git (https://github.com/llvm/llvm-project.git a7516dd38c60351876032a7d016b889dd4f8aa23)
+Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 9d7a23304497742612af7b33b94b99a7c9d06701)
 
 [lld-ver]
-Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git a7516dd38c60351876032a7d016b889dd4f8aa23) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 9d7a23304497742612af7b33b94b99a7c9d06701) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/a7516dd38c60351876032a7d016b889dd4f8aa23
+https://github.com/llvm/llvm-project.git/commit/9d7a23304497742612af7b33b94b99a7c9d06701
 
 [llvm-commit-msg]
-[BOLT] Remove Uses of %T From Lit Tests (#150716)
+Revert "[RISCV] Refactor X60 scheduling model helper classes. NFC. (#151572)"
 
 [host-glibc]
 2.35
 
 [size-gzip]
-b
+86Mb
 
 [size-xz]
-b
+58Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/27072025/greenforce-clang-(https://github.com/llvm/llvm-project.git-27072025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/03082025/greenforce-clang-22.0.0git-03082025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/27072025/greenforce-clang-(https://github.com/llvm/llvm-project.git-27072025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/03082025/greenforce-clang-22.0.0git-03082025.tar.xz
 
 [shasum-gzip]
-
+f01ea2eec2b319798dd9caf7350def82c48e07a4998d1c6657aa01f035a2c45e
 
 [shasum-xz]
-
+6af54053987c589754340494bb362b9077fa86e88dc7f98a4d9931c4890d676f
