@@ -1,35 +1,35 @@
 [date]
-3 August 2025
+10 August 2025
 
 [clang-ver]
-Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 9d7a23304497742612af7b33b94b99a7c9d06701)
+Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 24b772769f47f2c884ffab64a24444da9968094f)
 
 [lld-ver]
-Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 9d7a23304497742612af7b33b94b99a7c9d06701) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 24b772769f47f2c884ffab64a24444da9968094f) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/9d7a23304497742612af7b33b94b99a7c9d06701
+https://github.com/llvm/llvm-project.git/commit/24b772769f47f2c884ffab64a24444da9968094f
 
 [llvm-commit-msg]
-Revert "[RISCV] Refactor X60 scheduling model helper classes. NFC. (#151572)"
+[libc++] Implement LWG4222 'expected' constructor from a single value missing a constraint (#152676)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-86Mb
+87Mb
 
 [size-xz]
 58Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/03082025/greenforce-clang-22.0.0git-03082025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/10082025/greenforce-clang-22.0.0git-10082025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/03082025/greenforce-clang-22.0.0git-03082025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/10082025/greenforce-clang-22.0.0git-10082025.tar.xz
 
 [shasum-gzip]
-f01ea2eec2b319798dd9caf7350def82c48e07a4998d1c6657aa01f035a2c45e
+d23675dccff3060a3307514db076a4473aa25f8aaa368a0929307c14175be39c
 
 [shasum-xz]
-6af54053987c589754340494bb362b9077fa86e88dc7f98a4d9931c4890d676f
+f1881fd7ab26162093d4f7c5b5d0e3e3ea64e3ac13b36daf2d766194ac9ca00d
