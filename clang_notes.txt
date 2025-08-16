@@ -1,17 +1,17 @@
 [date]
-10 August 2025
+17 August 2025
 
 [clang-ver]
-Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 24b772769f47f2c884ffab64a24444da9968094f)
+Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git aa2fe4eb3d5bc4e0550677ebc312f68534d402ee)
 
 [lld-ver]
-Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 24b772769f47f2c884ffab64a24444da9968094f) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git aa2fe4eb3d5bc4e0550677ebc312f68534d402ee) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/24b772769f47f2c884ffab64a24444da9968094f
+https://github.com/llvm/llvm-project.git/commit/aa2fe4eb3d5bc4e0550677ebc312f68534d402ee
 
 [llvm-commit-msg]
-[libc++] Implement LWG4222 'expected' constructor from a single value missing a constraint (#152676)
+[PowerPC] Remove some unused SDNodes and FastISel workaround (NFC) (#153964)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/24b772769f47f2c884ffab64a24444da
 58Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/10082025/greenforce-clang-22.0.0git-10082025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/17082025/greenforce-clang-22.0.0git-17082025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/10082025/greenforce-clang-22.0.0git-10082025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/17082025/greenforce-clang-22.0.0git-17082025.tar.xz
 
 [shasum-gzip]
-d23675dccff3060a3307514db076a4473aa25f8aaa368a0929307c14175be39c
+b3942c02e25c1d0159299f9503606ec0ffcab5fe8084398940067cdb69a44de1
 
 [shasum-xz]
-f1881fd7ab26162093d4f7c5b5d0e3e3ea64e3ac13b36daf2d766194ac9ca00d
+95dc7e415ef4cd2a7f1873b3bfe87a477394b81adfe3bf39cf5c04c714e9eadb
