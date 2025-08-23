@@ -1,17 +1,17 @@
 [date]
-17 August 2025
+24 August 2025
 
 [clang-ver]
-Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git aa2fe4eb3d5bc4e0550677ebc312f68534d402ee)
+Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 03a23f02a9a15bb7335cacfbbbd4cfe501bd7ca8)
 
 [lld-ver]
-Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git aa2fe4eb3d5bc4e0550677ebc312f68534d402ee) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 03a23f02a9a15bb7335cacfbbbd4cfe501bd7ca8) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/aa2fe4eb3d5bc4e0550677ebc312f68534d402ee
+https://github.com/llvm/llvm-project.git/commit/03a23f02a9a15bb7335cacfbbbd4cfe501bd7ca8
 
 [llvm-commit-msg]
-[PowerPC] Remove some unused SDNodes and FastISel workaround (NFC) (#153964)
+[VPlan] Store LoopRegion in variable in calculateRegisterUsage... (NFC)
 
 [host-glibc]
 2.35
@@ -23,13 +23,13 @@ https://github.com/llvm/llvm-project.git/commit/aa2fe4eb3d5bc4e0550677ebc312f685
 58Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/17082025/greenforce-clang-22.0.0git-17082025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/24082025/greenforce-clang-22.0.0git-24082025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/17082025/greenforce-clang-22.0.0git-17082025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/24082025/greenforce-clang-22.0.0git-24082025.tar.xz
 
 [shasum-gzip]
-b3942c02e25c1d0159299f9503606ec0ffcab5fe8084398940067cdb69a44de1
+89a544077feb4de77dd6032bda2e62b72d88a2b4ce0289f487bf96ab512d2d11
 
 [shasum-xz]
-95dc7e415ef4cd2a7f1873b3bfe87a477394b81adfe3bf39cf5c04c714e9eadb
+4fcdfb794c063d6564534da6cbd92dd5c5744eadc0417cf87c8e434be920be1a
