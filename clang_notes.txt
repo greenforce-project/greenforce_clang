@@ -1,35 +1,35 @@
 [date]
-24 August 2025
+31 August 2025
 
 [clang-ver]
-Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 03a23f02a9a15bb7335cacfbbbd4cfe501bd7ca8)
+Gf clang version 22.0.0git (https://github.com/llvm/llvm-project.git 1dd7a09272c11dea5bfcd26c7844dd30ba3249ed)
 
 [lld-ver]
-Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 03a23f02a9a15bb7335cacfbbbd4cfe501bd7ca8) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project.git 1dd7a09272c11dea5bfcd26c7844dd30ba3249ed) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/03a23f02a9a15bb7335cacfbbbd4cfe501bd7ca8
+https://github.com/llvm/llvm-project.git/commit/1dd7a09272c11dea5bfcd26c7844dd30ba3249ed
 
 [llvm-commit-msg]
-[VPlan] Store LoopRegion in variable in calculateRegisterUsage... (NFC)
+[llvm] Proofread BigEndianNEON.rst (#156141)
 
 [host-glibc]
 2.35
 
 [size-gzip]
-87Mb
+86Mb
 
 [size-xz]
-58Mb
+57Mb
 
 [link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/24082025/greenforce-clang-22.0.0git-24082025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/31082025/greenforce-clang-22.0.0git-31082025.tar.gz
 
 [link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/24082025/greenforce-clang-22.0.0git-24082025.tar.xz
+https://github.com/greenforce-project/greenforce_clang/releases/download/31082025/greenforce-clang-22.0.0git-31082025.tar.xz
 
 [shasum-gzip]
-89a544077feb4de77dd6032bda2e62b72d88a2b4ce0289f487bf96ab512d2d11
+99d48929271dd2db590a8255cb2d84a1b2266a00f22f5eb0450036376b7c6d89
 
 [shasum-xz]
-4fcdfb794c063d6564534da6cbd92dd5c5744eadc0417cf87c8e434be920be1a
+5c47a0f85f5a498b106f681fae932756bf017073b6766e7e71fc46a502d8e790
