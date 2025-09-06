@@ -42,8 +42,8 @@ Optionally, you may use LLVM-based tools to minimize reliance on GNU binutils:
 
 To leverage Clang's integrated assembler and LLVM's linker (`lld`), you can enable the following build options:
 
-- `LLVM:1` (Use Clang and LLVM tools e.g., `clang`, `lld` instead of GNU tools.)
-- `LLVM_IAS:1` (Use Clang's built-in assembler instead of GNU `as`.(
+- `LLVM=1` (Use Clang and LLVM tools e.g., `clang`, `lld` instead of GNU tools.)
+- `LLVM_IAS=1` (Use Clang's built-in assembler instead of GNU `as`.)
 
 >**Note:** Some older kernel versions or architectures may not be fully compatible with the integrated assembler. Disable `LLVM_IAS` or apply necessary patches if build errors occur.
 
