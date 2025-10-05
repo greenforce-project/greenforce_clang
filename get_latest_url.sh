@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-LATEST_URL_GZ=https://github.com/greenforce-project/greenforce_clang/releases/download/14092025/greenforce-clang-22.0.0git-14092025.tar.gz
-LATEST_URL_XZ=https://github.com/greenforce-project/greenforce_clang/releases/download/14092025/greenforce-clang-22.0.0git-14092025.tar.xz
+LATEST_URL=https://github.com/greenforce-project/greenforce_clang/releases/download/05102025/greenforce-clang-22.0.0git-05102025.tar.gz

@@ -1,35 +1,26 @@
 [date]
-14 September 2025
+5 October 2025
 
 [clang-ver]
-Gf clang version 22.0.0git (https://github.com/llvm/llvm-project ef7e03a2d1571e3c651fa9ccd205dbacf1a103c8)
+Gf clang version 22.0.0git (https://github.com/llvm/llvm-project 795a115d1919966df72079eb3bd82699bfb2fa58)
 
 [lld-ver]
-Gf LLD 22.0.0 (https://github.com/llvm/llvm-project ef7e03a2d1571e3c651fa9ccd205dbacf1a103c8) (compatible with GNU linkers)
+Gf LLD 22.0.0 (https://github.com/llvm/llvm-project 795a115d1919966df72079eb3bd82699bfb2fa58) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/ef7e03a2d1571e3c651fa9ccd205dbacf1a103c8
+https://github.com/llvm/llvm-project/commit/795a115d1919966df72079eb3bd82699bfb2fa58
 
 [llvm-commit-msg]
-[VPlan] Limit ExtractLastElem fold to recipes guaranteed single-scalar.
+[RegAlloc] Remove default restriction on non-trivial rematerialization (#159211)
 
 [host-glibc]
 2.35
 
-[size-gzip]
-86Mb
+[size]
+183Mb
 
-[size-xz]
-57Mb
+[link-rel]
+https://github.com/greenforce-project/greenforce_clang/releases/download/05102025/greenforce-clang-22.0.0git-05102025.tar.gz
 
-[link-rel-gzip]
-https://github.com/greenforce-project/greenforce_clang/releases/download/14092025/greenforce-clang-22.0.0git-14092025.tar.gz
-
-[link-rel-xz]
-https://github.com/greenforce-project/greenforce_clang/releases/download/14092025/greenforce-clang-22.0.0git-14092025.tar.xz
-
-[shasum-gzip]
-64008457e3764821ddebf65883c0bab29658242ab75059f90e2c07ccc7e02fbf
-
-[shasum-xz]
-0914cf0ce2d5864958b21b9e922f85d1e3e492943f8112bbac63fbade583b88e
+[shasum]
+a9596639ab8956d266c8409b0acb5c1a3b1f94ccc67865e48832a4caad18917d
