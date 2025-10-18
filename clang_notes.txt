@@ -1,26 +1,26 @@
 [date]
-12 October 2025
+18 October 2025
 
 [clang-ver]
-Gf-r20251012 clang version 22.0.0git (https://github.com/llvm/llvm-project a61107472b62b3d6f94861dfa981eecd0f63ab0c)
+Gf-r20251018 clang version 22.0.0git (https://github.com/llvm/llvm-project c491c6e80945258750e7f4e3af4e69ae97353586)
 
 [lld-ver]
-Gf-r20251012 LLD 22.0.0 (https://github.com/llvm/llvm-project a61107472b62b3d6f94861dfa981eecd0f63ab0c) (compatible with GNU linkers)
+Gf-r20251018 LLD 22.0.0 (https://github.com/llvm/llvm-project c491c6e80945258750e7f4e3af4e69ae97353586) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/a61107472b62b3d6f94861dfa981eecd0f63ab0c
+https://github.com/llvm/llvm-project/commit/c491c6e80945258750e7f4e3af4e69ae97353586
 
 [llvm-commit-msg]
-[SelectionDAG] Remove NoInfsFPMath uses (#162788)
+[bazel] Port 89d1143a90b7bf9b9ebabab1d8b7ed519c6ec5eb
 
 [host-glibc]
 2.35
 
 [size]
-183Mb
+184Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20251012/gf-clang-22.0.0git-20251012.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20251018/gf-clang-22.0.0git-20251018.tar.gz
 
 [shasum]
-fc9b756327ccd6d03788b4146e48a67b368cbaa908d0bc9a424d0b9e02a3434f
+cca6232f56501b095f072c6b832043148d8c20359607f911e86ef981585aaecd
