@@ -1,17 +1,17 @@
 [date]
-25 October 2025
+1 November 2025
 
 [clang-ver]
-Gf-r20251025 clang version 22.0.0git (https://github.com/llvm/llvm-project f248010a5233e726f6ab1767c09cd582057a6413)
+Gf-r20251101 clang version 22.0.0git (https://github.com/llvm/llvm-project d2625a438020ad35330cda29c3def102c1687b1b)
 
 [lld-ver]
-Gf-r20251025 LLD 22.0.0 (https://github.com/llvm/llvm-project f248010a5233e726f6ab1767c09cd582057a6413) (compatible with GNU linkers)
+Gf-r20251101 LLD 22.0.0 (https://github.com/llvm/llvm-project d2625a438020ad35330cda29c3def102c1687b1b) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/f248010a5233e726f6ab1767c09cd582057a6413
+https://github.com/llvm/llvm-project/commit/d2625a438020ad35330cda29c3def102c1687b1b
 
 [llvm-commit-msg]
-[mlir][amdgpu] Update mfma assembly format with intrinsic shape (#165037)
+[LoongArch][NFC] Pre-commit tests for `vclo` which counts the leading ones for each vector elements (#165980)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/f248010a5233e726f6ab1767c09cd582057a
 184Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20251025/gf-clang-22.0.0git-20251025.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20251101/gf-clang-22.0.0git-20251101.tar.gz
 
 [shasum]
-017acbfaff3f24463010ca9c519200ee0632412c65567b802959d2738f16a0de
+f511b7d74b4800e1622e050302834d68d0e4fe6de014d70deb8ee31c072c74fa
