@@ -1,17 +1,17 @@
 [date]
-26 November 2025
+8 December 2025
 
 [clang-ver]
-Gf (+pgo, +bolt, +thinLTO, based on r20251126) clang version 22.0.0git (https://github.com/llvm/llvm-project 9534ed9f30043318798a9544461bc174e273e1f3)
+Gf (+pgo, +bolt, +thinLTO, based on r20251208) clang version 22.0.0git (https://github.com/llvm/llvm-project 8378a6fa4f5c83298fb0b5e240bb7f254f7b1137)
 
 [lld-ver]
-LLD 22.0.0 (https://github.com/llvm/llvm-project 9534ed9f30043318798a9544461bc174e273e1f3) (compatible with GNU linkers)
+LLD 22.0.0 (https://github.com/llvm/llvm-project 8378a6fa4f5c83298fb0b5e240bb7f254f7b1137) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/9534ed9f30043318798a9544461bc174e273e1f3
+https://github.com/llvm/llvm-project/commit/8378a6fa4f5c83298fb0b5e240bb7f254f7b1137
 
 [llvm-commit-msg]
-[orc-rt] Add ErrorAsOutParameter convenience constructor. (#169467)
+[mlir][arith] Fix build after #171024 (#171057)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/9534ed9f30043318798a9544461bc174e273
 98Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20251126/gf-clang-22.0.0-20251126.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20251208/gf-clang-22.0.0-20251208.tar.gz
 
 [shasum]
-17f1920f8a32e6b7cea96e2836775d448c2d0040bdcd1bae8aa934ab340653b1
+49a7c0e36a34481ec7b144b971c7cf210e7049d6980d5672556110b88385c10f
