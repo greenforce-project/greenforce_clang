@@ -1,26 +1,26 @@
 [date]
-8 December 2025
+14 December 2025
 
 [clang-ver]
-Gf (+pgo, +bolt, +thinLTO, based on r20251208) clang version 22.0.0git (https://github.com/llvm/llvm-project 8378a6fa4f5c83298fb0b5e240bb7f254f7b1137)
+Gf (+pgo, +bolt, +thinLTO, based on r20251214) clang version 22.0.0git (https://github.com/llvm/llvm-project 16727674e09ddd61f998554c21d3cf3bdf392df8)
 
 [lld-ver]
-LLD 22.0.0 (https://github.com/llvm/llvm-project 8378a6fa4f5c83298fb0b5e240bb7f254f7b1137) (compatible with GNU linkers)
+LLD 22.0.0 (https://github.com/llvm/llvm-project 16727674e09ddd61f998554c21d3cf3bdf392df8) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/8378a6fa4f5c83298fb0b5e240bb7f254f7b1137
+https://github.com/llvm/llvm-project/commit/16727674e09ddd61f998554c21d3cf3bdf392df8
 
 [llvm-commit-msg]
-[mlir][arith] Fix build after #171024 (#171057)
+AArch64: Use AArch64InstrInfo instead of base class in frame lowering (#172183)
 
 [host-glibc]
 2.35
 
 [size]
-98Mb
+99Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20251208/gf-clang-22.0.0-20251208.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20251214/gf-clang-22.0.0-20251214.tar.gz
 
 [shasum]
-49a7c0e36a34481ec7b144b971c7cf210e7049d6980d5672556110b88385c10f
+243cfd37f613b183e14eff1d82bde46ba4fff10ff293b705f5e87e31fcf64ef7
