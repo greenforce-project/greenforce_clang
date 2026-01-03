@@ -1,17 +1,17 @@
 [date]
-27 December 2025
+3 January 2026
 
 [clang-ver]
-Gf (+pgo, +bolt, +thinLTO, based on r20251227) clang version 22.0.0git (https://github.com/llvm/llvm-project 2c13075b2956819dc5a562f14a48d027537cf2e5)
+Gf (+pgo, +bolt, +thinLTO, based on r20260103) clang version 22.0.0git (https://github.com/llvm/llvm-project e1d77359b8e0893104a53f7ccc09d1ad7b46cf9b)
 
 [lld-ver]
-LLD 22.0.0 (https://github.com/llvm/llvm-project 2c13075b2956819dc5a562f14a48d027537cf2e5) (compatible with GNU linkers)
+LLD 22.0.0 (https://github.com/llvm/llvm-project e1d77359b8e0893104a53f7ccc09d1ad7b46cf9b) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/2c13075b2956819dc5a562f14a48d027537cf2e5
+https://github.com/llvm/llvm-project/commit/e1d77359b8e0893104a53f7ccc09d1ad7b46cf9b
 
 [llvm-commit-msg]
-[mlir][dataflow] Fix DataFlowFramework crash by add isBlockEnd logic in the ProgramPoint::print (#173471)
+[X86] combinePTESTCC - always prefer TESTPS/D to PTEST on AVX (#174097)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/2c13075b2956819dc5a562f14a48d027537c
 99Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20251227/gf-clang-22.0.0-20251227.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260103/gf-clang-22.0.0-20260103.tar.gz
 
 [shasum]
-e1ad4d5462a89e5999f454b8f869d4d4a836171b0e5e774d19a5b11d4d58868f
+34d477c9235e812c255d25358f947c6544a6262f6038126b3c4ab75c9e32c454
