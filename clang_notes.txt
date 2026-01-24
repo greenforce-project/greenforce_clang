@@ -1,17 +1,17 @@
 [date]
-17 January 2026
+24 January 2026
 
 [clang-ver]
-Gf (+pgo, +bolt, +thinLTO, based on r20260117) clang version 23.0.0git (https://github.com/llvm/llvm-project 6b86e24ec1785ab13bbc1e136a85537460b15fb2)
+Gf (+pgo, +bolt, +thinLTO, based on r20260124) clang version 23.0.0git (https://github.com/llvm/llvm-project 0387625c3e797c7dbd5eecfc5820dfc38074dd10)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 6b86e24ec1785ab13bbc1e136a85537460b15fb2) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 0387625c3e797c7dbd5eecfc5820dfc38074dd10) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/6b86e24ec1785ab13bbc1e136a85537460b15fb2
+https://github.com/llvm/llvm-project/commit/0387625c3e797c7dbd5eecfc5820dfc38074dd10
 
 [llvm-commit-msg]
-[AMDGPU][SIInsertWaitcnt] Address review feedback for waitcnt profiling expansion (#175922)
+ValueTracking: Detect cases with no underflow for fadd (#177746)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/6b86e24ec1785ab13bbc1e136a85537460b1
 99Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260117/gf-clang-23.0.0-20260117.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260124/gf-clang-23.0.0-20260124.tar.gz
 
 [shasum]
-90959e26023e05ad1929a7e8a37140c79477ad64192c60e3af23cb27a92efec3
+29b0898c12ffad44f15f82f1f6c701bcc9e3f168e681527c37998a1269250df9
