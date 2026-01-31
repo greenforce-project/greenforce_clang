@@ -1,17 +1,17 @@
 [date]
-24 January 2026
+31 January 2026
 
 [clang-ver]
-Gf (+pgo, +bolt, +thinLTO, based on r20260124) clang version 23.0.0git (https://github.com/llvm/llvm-project 0387625c3e797c7dbd5eecfc5820dfc38074dd10)
+Gf (+pgo, +bolt, +thinLTO, based on r20260131) clang version 23.0.0git (https://github.com/llvm/llvm-project 317f7d4da94e2cc29c8ca320139459e9be77193b)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 0387625c3e797c7dbd5eecfc5820dfc38074dd10) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 317f7d4da94e2cc29c8ca320139459e9be77193b) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/0387625c3e797c7dbd5eecfc5820dfc38074dd10
+https://github.com/llvm/llvm-project/commit/317f7d4da94e2cc29c8ca320139459e9be77193b
 
 [llvm-commit-msg]
-ValueTracking: Detect cases with no underflow for fadd (#177746)
+[perf] Replace copy-assign by move-assign in llvm/lib/DWARFCFIChecker… (#178174)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ ValueTracking: Detect cases with no underflow for fadd (#177746)
 99Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260124/gf-clang-23.0.0-20260124.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260131/gf-clang-23.0.0-20260131.tar.gz
 
 [shasum]
-29b0898c12ffad44f15f82f1f6c701bcc9e3f168e681527c37998a1269250df9
+8f26a3abda9f4f09e5cda8a307b9344464ec48434a4a23acd76b9f2f8fa8fed7
