@@ -1,26 +1,26 @@
 [date]
-31 January 2026
+7 February 2026
 
 [clang-ver]
-Gf (+pgo, +bolt, +thinLTO, based on r20260131) clang version 23.0.0git (https://github.com/llvm/llvm-project 317f7d4da94e2cc29c8ca320139459e9be77193b)
+Gf (+pgo, +bolt, +thinLTO, based on r20260207) clang version 23.0.0git (https://github.com/llvm/llvm-project 269fda118ae2815369cabd1dbfdb1be33b314c0c)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 317f7d4da94e2cc29c8ca320139459e9be77193b) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 269fda118ae2815369cabd1dbfdb1be33b314c0c) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/317f7d4da94e2cc29c8ca320139459e9be77193b
+https://github.com/llvm/llvm-project/commit/269fda118ae2815369cabd1dbfdb1be33b314c0c
 
 [llvm-commit-msg]
-[perf] Replace copy-assign by move-assign in llvm/lib/DWARFCFIChecker… (#178174)
+[AMDGPU] Fix pattern selecting fmul to v_fma_mix_f32 (#180210)
 
 [host-glibc]
 2.35
 
 [size]
-99Mb
+100Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260131/gf-clang-23.0.0-20260131.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260207/gf-clang-23.0.0-20260207.tar.gz
 
 [shasum]
-8f26a3abda9f4f09e5cda8a307b9344464ec48434a4a23acd76b9f2f8fa8fed7
+06e58863d0ca19ef186f3543d270c92e091d13726662a378d76ba968566df068
