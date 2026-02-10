@@ -1,26 +1,26 @@
 [date]
-9 February 2026
+10 February 2026
 
 [clang-ver]
-Gf (+pgo, +bolt, +thinLTO, based on r20260209) clang version 23.0.0git (https://github.com/llvm/llvm-project 769b734c020472f1f3108c912f87755174246e26)
+Oₓ (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project dca7b11a326f523a93268dd17e969d1c26bcf40e)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 769b734c020472f1f3108c912f87755174246e26) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project dca7b11a326f523a93268dd17e969d1c26bcf40e) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/769b734c020472f1f3108c912f87755174246e26
+https://github.com/llvm/llvm-project/commit/dca7b11a326f523a93268dd17e969d1c26bcf40e
 
 [llvm-commit-msg]
-[RISCV] Combine ADDD with UMUL_LOHI/SMUL_LOHI into WMACCU/WMACC (#180383)
+[X86] Add tests showing failure to reduce the vector width of vpmaddwd/vpmaddubsw/pmulhrsw nodes (#180728)
 
 [host-glibc]
 2.35
 
 [size]
-100Mb
+46Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260209/gf-clang-23.0.0-20260209.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260210/gf-clang-23.0.0-20260210.tar.gz
 
 [shasum]
-81355c77c1e2cf029b5b15e17cf70095006216a36c2b0b9730fc9f2af0eb66ef
+185ca422ba4ce4a7a67d6582f3d92ba99bdf5c10de91f97ea2f26786824b891c
