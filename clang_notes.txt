@@ -1,17 +1,17 @@
 [date]
-10 February 2026
+14 February 2026
 
 [clang-ver]
-Oₓ (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project dca7b11a326f523a93268dd17e969d1c26bcf40e)
+Oₓ (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 84ce7b1f1d2997d1880f9b24ee6e6a75d4045e0a)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project dca7b11a326f523a93268dd17e969d1c26bcf40e) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 84ce7b1f1d2997d1880f9b24ee6e6a75d4045e0a) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/dca7b11a326f523a93268dd17e969d1c26bcf40e
+https://github.com/llvm/llvm-project/commit/84ce7b1f1d2997d1880f9b24ee6e6a75d4045e0a
 
 [llvm-commit-msg]
-[X86] Add tests showing failure to reduce the vector width of vpmaddwd/vpmaddubsw/pmulhrsw nodes (#180728)
+[X86] Avoid custom lowering `llrint` on non-x87 targets (#181339)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/dca7b11a326f523a93268dd17e969d1c26bc
 46Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260210/gf-clang-23.0.0-20260210.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260214/gf-clang-23.0.0-20260214.tar.gz
 
 [shasum]
-185ca422ba4ce4a7a67d6582f3d92ba99bdf5c10de91f97ea2f26786824b891c
+aaab61d768a8cdfd22cf2da88405e5b6649135d0f60f756bb9fcc4dd9584a61c
