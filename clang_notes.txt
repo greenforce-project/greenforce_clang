@@ -1,17 +1,17 @@
 [date]
-14 February 2026
+15 February 2026
 
 [clang-ver]
-Oₓ (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 84ce7b1f1d2997d1880f9b24ee6e6a75d4045e0a)
+Android (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 104e82b75defd23ade610a5a75cd95244638ec0b)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 84ce7b1f1d2997d1880f9b24ee6e6a75d4045e0a) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 104e82b75defd23ade610a5a75cd95244638ec0b) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/84ce7b1f1d2997d1880f9b24ee6e6a75d4045e0a
+https://github.com/llvm/llvm-project/commit/104e82b75defd23ade610a5a75cd95244638ec0b
 
 [llvm-commit-msg]
-[X86] Avoid custom lowering `llrint` on non-x87 targets (#181339)
+[ELF,PPC64] Inline toAddr16Rel and TLS remapping into the main relocate switch
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/84ce7b1f1d2997d1880f9b24ee6e6a75d404
 46Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260214/gf-clang-23.0.0-20260214.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260215/gf-clang-23.0.0-20260215.tar.gz
 
 [shasum]
-aaab61d768a8cdfd22cf2da88405e5b6649135d0f60f756bb9fcc4dd9584a61c
+4cb49ce4d42df42f0471c600dcca676903b6ec4f780765beca40691edd8d9b26
