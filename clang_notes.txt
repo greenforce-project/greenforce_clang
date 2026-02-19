@@ -1,17 +1,17 @@
 [date]
-15 February 2026
+19 February 2026
 
 [clang-ver]
-Android (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 104e82b75defd23ade610a5a75cd95244638ec0b)
+Android (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 3459bb4f279fa40f463cbfe19cf133a578359a99)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 104e82b75defd23ade610a5a75cd95244638ec0b) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 3459bb4f279fa40f463cbfe19cf133a578359a99) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/104e82b75defd23ade610a5a75cd95244638ec0b
+https://github.com/llvm/llvm-project/commit/3459bb4f279fa40f463cbfe19cf133a578359a99
 
 [llvm-commit-msg]
-[ELF,PPC64] Inline toAddr16Rel and TLS remapping into the main relocate switch
+[TableGen] Introduce RegisterByHwMode
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/104e82b75defd23ade610a5a75cd95244638
 46Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260215/gf-clang-23.0.0-20260215.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260219/gf-clang-23.0.0-20260219.tar.gz
 
 [shasum]
-4cb49ce4d42df42f0471c600dcca676903b6ec4f780765beca40691edd8d9b26
+0418b97a988184cdf29ac54b2a3f8ef9d9548c2479db09d23c51d301b9364e58
