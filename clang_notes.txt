@@ -1,26 +1,26 @@
 [date]
-21 February 2026
+25 February 2026
 
 [clang-ver]
-Android (Gf's C Compiler, +pgo, +bolt, +thinLTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project ce5c1932e2b278de320d1e7ada3babb361c80643)
+Android (Gf's C Compiler, +pgo, +bolt, +LTO, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 678aaa75c7fac4bbda9e5d70f629e698657f5e3a)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project ce5c1932e2b278de320d1e7ada3babb361c80643) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 678aaa75c7fac4bbda9e5d70f629e698657f5e3a) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/ce5c1932e2b278de320d1e7ada3babb361c80643
+https://github.com/llvm/llvm-project/commit/678aaa75c7fac4bbda9e5d70f629e698657f5e3a
 
 [llvm-commit-msg]
-[RISCV] Fold shladd into Xqcisls scaled load/store in RISCVMergeBaseOffset (#182221)
+[llvm][release] Note that some packages have 2 signature files (#183266)
 
 [host-glibc]
 2.35
 
 [size]
-46Mb
+47Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260221/gf-clang-23.0.0-20260221.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260225/gf-clang-23.0.0-20260225.tar.gz
 
 [shasum]
-5d3da2a9340ce0a8d0847db0b47d1b227166d355605a3669dd78c54124ed29df
+04763324d3abbfa81ad828d5522e0510253dbfb617ea9fc849747f9f38d68439
