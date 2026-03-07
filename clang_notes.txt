@@ -1,17 +1,17 @@
 [date]
-2 March 2026
+7 March 2026
 
 [clang-ver]
-Android (Gf's C Compiler, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project b8d0bb2ddc77c6f9a856ae90fd1329778c070823)
+Android (Gf's C Compiler, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 704c87bb948aff1bec718d56ad52b9b5d9c49cfb)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project b8d0bb2ddc77c6f9a856ae90fd1329778c070823) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 704c87bb948aff1bec718d56ad52b9b5d9c49cfb) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/b8d0bb2ddc77c6f9a856ae90fd1329778c070823
+https://github.com/llvm/llvm-project/commit/704c87bb948aff1bec718d56ad52b9b5d9c49cfb
 
 [llvm-commit-msg]
-[WebKit checkers] Trivial function analysis ignores some nodelete annotation (#183970)
+libclc: Implement get_global_linear_id and get_local_linear_id (#184800)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/b8d0bb2ddc77c6f9a856ae90fd1329778c07
 44Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260302/gf-clang-23.0.0-20260302.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260307/gf-clang-23.0.0-20260307.tar.gz
 
 [shasum]
-43490355ffe27e818479fc551d82e7d78eab83e554f2f21ad08ff227ad89a8ee
+9e5ba24f59d5db39ebd88beb5fe11b9e4a810bc57591e53e9b1466ec4e1ecfa4
