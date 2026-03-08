@@ -1,17 +1,17 @@
 [date]
-7 March 2026
+8 March 2026
 
 [clang-ver]
-Android (Gf's C Compiler, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 704c87bb948aff1bec718d56ad52b9b5d9c49cfb)
+Android (Gf's C Compiler, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 327f1adef8df6afc07f6c88cfa380c97399af3dc)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 704c87bb948aff1bec718d56ad52b9b5d9c49cfb) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 327f1adef8df6afc07f6c88cfa380c97399af3dc) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/704c87bb948aff1bec718d56ad52b9b5d9c49cfb
+https://github.com/llvm/llvm-project/commit/327f1adef8df6afc07f6c88cfa380c97399af3dc
 
 [llvm-commit-msg]
-libclc: Implement get_global_linear_id and get_local_linear_id (#184800)
+[AArch64] Ensure FPR128 callee-save stack offsets are aligned (#184314)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ libclc: Implement get_global_linear_id and get_local_linear_id (#184800)
 44Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260307/gf-clang-23.0.0-20260307.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260308/gf-clang-23.0.0-20260308.tar.gz
 
 [shasum]
-9e5ba24f59d5db39ebd88beb5fe11b9e4a810bc57591e53e9b1466ec4e1ecfa4
+dc7ffa89e42632d7ffcc4f40583158b2031619cd9f03e43734fe1edab0fd9488
