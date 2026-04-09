@@ -1,26 +1,26 @@
 [date]
-21 March 2026
+9 April 2026
 
 [clang-ver]
-Android (Gf's C Compiler, LLVM-based) clang version 23.0.0git (https://github.com/llvm/llvm-project 1f9c54a15a87f72ca45fb47ec006d1eae63f4eb0)
+Gf clang version 22.1.4 (https://github.com/llvm/llvm-project e9a36c0cca40d93a204828156e105779abb4a73a)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 1f9c54a15a87f72ca45fb47ec006d1eae63f4eb0) (compatible with GNU linkers)
+LLD 22.1.4 (https://github.com/llvm/llvm-project e9a36c0cca40d93a204828156e105779abb4a73a) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/1f9c54a15a87f72ca45fb47ec006d1eae63f4eb0
+https://github.com/llvm/llvm-project/commit/e9a36c0cca40d93a204828156e105779abb4a73a
 
 [llvm-commit-msg]
-[clang][AST] Preserve qualifiers in getFullyQualifiedType for AutoType (#187717)
+[CodeGen] Preserve big-endian trunc in concat_vectors (#190701)
 
 [host-glibc]
 2.35
 
 [size]
-44Mb
+102Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260321/gf-clang-23.0.0-20260321.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260409/gf-clang-22.1.4-20260409.tar.gz
 
 [shasum]
-09b88edfb6f122339343f41a66af46a1002b5d9864fed22787deb18006349431
+90f8fc0e7c6ad1e5b662d8fc8e52d8273c724e408a778b1f0842536d41513fc8
