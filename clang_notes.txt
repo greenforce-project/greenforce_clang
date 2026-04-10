@@ -1,8 +1,8 @@
 [date]
-9 April 2026
+10 April 2026
 
 [clang-ver]
-Gf clang version 22.1.4 (https://github.com/llvm/llvm-project e9a36c0cca40d93a204828156e105779abb4a73a)
+Cirrus clang version 22.1.4 (https://github.com/llvm/llvm-project e9a36c0cca40d93a204828156e105779abb4a73a)
 
 [lld-ver]
 LLD 22.1.4 (https://github.com/llvm/llvm-project e9a36c0cca40d93a204828156e105779abb4a73a) (compatible with GNU linkers)
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/e9a36c0cca40d93a204828156e105779abb4
 102Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260409/gf-clang-22.1.4-20260409.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260410/gf-clang-22.1.4-20260410.tar.gz
 
 [shasum]
-90f8fc0e7c6ad1e5b662d8fc8e52d8273c724e408a778b1f0842536d41513fc8
+12d415d9c92ea19c01b9694e1493a25cb65c2ec10df803417bd2239faf2163e9
