@@ -1,6 +1,6 @@
-# Greenforce Clang
+# Gf Clang
 
-Greenforce Clang is an LLVM toolchain designed to simplify Linux kernel compilation, particularly for Android. This toolchain is customized to reduce reliance on AOSP binutils and offer a more flexible developer experience.
+Gf Clang is an LLVM toolchain designed to simplify Linux kernel compilation, particularly for Android. This toolchain is customized to reduce reliance on AOSP binutils and offer a more flexible developer experience.
 
 ## Host Compatibility
 
@@ -8,7 +8,7 @@ This toolchain is built on Ubuntu using the default `glibc` version. Compatibili
 
 ## Installation
 
-To install and initialize Greenforce Clang on your server, run the following command:
+To install and initialize Gf Clang on your server, run the following command:
 
 ```bash
 
@@ -51,20 +51,9 @@ Older Android kernels (pre-4.14) require specific patches to be built with any C
 
 For Android kernels 4.19 and newer, use the upstream variable `CROSS_COMPILE_COMPAT` in place of `CROSS_COMPILE_ARM32`.
 
-## Kernel Compatibility
-
-Greenforce Clang aims to support the latest Linux kernel versions with minimal friction. Below are notes regarding kernel version compatibility:
-
-- **Linux 5.15+:** Fully supported and builds successfully with LLVM 15 or newer.
-- **Linux 6.1 LTS:** Tested with standard configurations.
-- **Linux 6.6 / 6.8 (Mainline):** May require patches when using `lld` or Clang as the integrated assembler. Falling back to GNU binutils is advised if issues arise.
-- Clang’s integrated assembler is not fully compatible with all inline assembly used in the kernel. Selective use of GNU tools is recommended when needed.
-
-Make sure all required build dependencies are installed (e.g., `bc`, `flex`, `bison`, `libssl-dev`, `libncurses-dev`).
-
 ## Differences from Other Toolchains
 
-Greenforce Clang is designed to be easier to use compared to toolchains like AOSP Clang. Key improvements include:
+Gf Clang is designed to be easier to use compared to toolchains like AOSP Clang. Key improvements include:
 
 - `CLANG_TRIPLE` does not need to be set because we don't use AOSP binutils.
 - `LD_LIBRARY_PATH` does not need to be set because we set library load paths in the toolchain.
