@@ -2,25 +2,25 @@
 11 April 2026
 
 [clang-ver]
-Cirrus clang version 22.1.4 (https://github.com/llvm/llvm-project 5b4dd04594bd16bcd67f64c58ce703b12c0549da)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 67a0ff69fbe9950a6a1ccf96c9a20126cee23fde)
 
 [lld-ver]
-LLD 22.1.4 (https://github.com/llvm/llvm-project 5b4dd04594bd16bcd67f64c58ce703b12c0549da) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 67a0ff69fbe9950a6a1ccf96c9a20126cee23fde) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/5b4dd04594bd16bcd67f64c58ce703b12c0549da
+https://github.com/llvm/llvm-project/commit/67a0ff69fbe9950a6a1ccf96c9a20126cee23fde
 
 [llvm-commit-msg]
-[pdb] Fix public symbol hashing in GSIHashStreamBuilder::finalizeBuckets (#190133)
+[SLP][REVEC] Fix InsertElement scalar type in getEntryCost
 
 [host-glibc]
 2.35
 
 [size]
-102Mb
+104Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260411/gf-clang-22.1.4-20260411.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260411/gf-clang-23.0.0-20260411.tar.gz
 
 [shasum]
-ddfebc986ac3da2ccbb1c29acb60ab3afdef081c36e66ab4ca0618143fdad132
+e25c6c5d0fc6f2d92f01467e8edf27cab8765d6577f4aaef7970feb60e1fd816
