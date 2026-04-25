@@ -1,17 +1,17 @@
 [date]
-18 April 2026
+25 April 2026
 
 [clang-ver]
-cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 5a0b4c95de4b08d9c18667fc06f17253fc18f087)
+cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 61f311d93ed0542003c82ea9c75a44d753d4febd)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 5a0b4c95de4b08d9c18667fc06f17253fc18f087) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 61f311d93ed0542003c82ea9c75a44d753d4febd) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/5a0b4c95de4b08d9c18667fc06f17253fc18f087
+https://github.com/llvm/llvm-project/commit/61f311d93ed0542003c82ea9c75a44d753d4febd
 
 [llvm-commit-msg]
-[clang-format] Preserve trailing NOLINTEND placement with SeparateDefinitionBlocks (#190741)
+[AVR] Fix a bug in printing assembly operand with extra code (#193964)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/5a0b4c95de4b08d9c18667fc06f17253fc18
 105Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260418/gf-clang-23.0.0-20260418.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260425/gf-clang-23.0.0-20260425.tar.gz
 
 [shasum]
-15cabee5acb123eac93df1323cbbf7094fd9c841ad74233201e29f241a1ca252
+d8dde1c37d03ca1d9ff050a5b24c80678a98bbe6c98058b81ee14d05ad4b9c63
