@@ -1,17 +1,17 @@
 [date]
-25 April 2026
+2 May 2026
 
 [clang-ver]
-cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 61f311d93ed0542003c82ea9c75a44d753d4febd)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 1b1e14f1ea43a6d5e583a3e58062f3730fd42387)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 61f311d93ed0542003c82ea9c75a44d753d4febd) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 1b1e14f1ea43a6d5e583a3e58062f3730fd42387) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/61f311d93ed0542003c82ea9c75a44d753d4febd
+https://github.com/llvm/llvm-project/commit/1b1e14f1ea43a6d5e583a3e58062f3730fd42387
 
 [llvm-commit-msg]
-[AVR] Fix a bug in printing assembly operand with extra code (#193964)
+[libc][math] Qualify f16add functions to constexpr (#195429)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/61f311d93ed0542003c82ea9c75a44d753d4
 105Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260425/gf-clang-23.0.0-20260425.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260502/gf-clang-23.0.0-20260502.tar.gz
 
 [shasum]
-d8dde1c37d03ca1d9ff050a5b24c80678a98bbe6c98058b81ee14d05ad4b9c63
+0d0110c428ceee24a56f92851c2df0acf79ac4c16f6ed9cac1c09bb4f7564871
