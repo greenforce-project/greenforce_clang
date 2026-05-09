@@ -1,17 +1,17 @@
 [date]
-2 May 2026
+9 May 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 1b1e14f1ea43a6d5e583a3e58062f3730fd42387)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project ebf6a41a1888bbb5d731fd93b054d7b7ee62350a)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 1b1e14f1ea43a6d5e583a3e58062f3730fd42387) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project ebf6a41a1888bbb5d731fd93b054d7b7ee62350a) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/1b1e14f1ea43a6d5e583a3e58062f3730fd42387
+https://github.com/llvm/llvm-project/commit/ebf6a41a1888bbb5d731fd93b054d7b7ee62350a
 
 [llvm-commit-msg]
-[libc][math] Qualify f16add functions to constexpr (#195429)
+[CI] Ignore TidyFastChecks.inc for formatter CI. NFC. (#196682)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/1b1e14f1ea43a6d5e583a3e58062f3730fd4
 105Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260502/gf-clang-23.0.0-20260502.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260509/gf-clang-23.0.0-20260509.tar.gz
 
 [shasum]
-0d0110c428ceee24a56f92851c2df0acf79ac4c16f6ed9cac1c09bb4f7564871
+7019835c994ba67e747be7bcde636c9fdf4eabc0fba735e0f6b09655ad7ac9dc
