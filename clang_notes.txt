@@ -1,26 +1,26 @@
 [date]
-16 May 2026
+23 May 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project f5f49343053f9f27d24a9da3424bd30387c72a48)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 85c3fd048d7df66d093bfaf45e7c3c3ec44122bf)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project f5f49343053f9f27d24a9da3424bd30387c72a48) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 85c3fd048d7df66d093bfaf45e7c3c3ec44122bf) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/f5f49343053f9f27d24a9da3424bd30387c72a48
+https://github.com/llvm/llvm-project/commit/85c3fd048d7df66d093bfaf45e7c3c3ec44122bf
 
 [llvm-commit-msg]
-[AMDGPU] Add dot product patterns with saturating add (clamp) (#187945)
+[libc] Fix shared math tests for gcc-13. (#199318)
 
 [host-glibc]
 2.35
 
 [size]
-106Mb
+45Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260516/gf-clang-23.0.0-20260516.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260523/gf-clang-23.0.0-20260523.tar.gz
 
 [shasum]
-d567c56c726adbf93f741e6090a23bc07946998a461a09ac5f9ce5beccb53db7
+3388b2f1e32ec037b18aa52ac9a637f5cdc652e302bf693cf6a70962217fd35f
