@@ -1,26 +1,26 @@
 [date]
-23 May 2026
+27 May 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 85c3fd048d7df66d093bfaf45e7c3c3ec44122bf)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 27abffa3efe272d725a6c4eceeebfe8c17e0f8e8)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 85c3fd048d7df66d093bfaf45e7c3c3ec44122bf) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 27abffa3efe272d725a6c4eceeebfe8c17e0f8e8) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/85c3fd048d7df66d093bfaf45e7c3c3ec44122bf
+https://github.com/llvm/llvm-project/commit/27abffa3efe272d725a6c4eceeebfe8c17e0f8e8
 
 [llvm-commit-msg]
-[libc] Fix shared math tests for gcc-13. (#199318)
+[lldb] New expedited register specfication for unavailable regs (#193894)
 
 [host-glibc]
 2.35
 
 [size]
-45Mb
+98Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260523/gf-clang-23.0.0-20260523.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260527/gf-clang-23.0.0-20260527.tar.gz
 
 [shasum]
-3388b2f1e32ec037b18aa52ac9a637f5cdc652e302bf693cf6a70962217fd35f
+a76419087caade0b5f138334edc1ffb6b57dac1af9a1555ba094d28615a2cf37
