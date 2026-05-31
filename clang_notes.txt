@@ -1,26 +1,26 @@
 [date]
-27 May 2026
+31 May 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 27abffa3efe272d725a6c4eceeebfe8c17e0f8e8)
+Cirrus clang version 22.1.7 (https://github.com/llvm/llvm-project 48967cc1a0d4851b01b0548932ac77b86017f053)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 27abffa3efe272d725a6c4eceeebfe8c17e0f8e8) (compatible with GNU linkers)
+LLD 22.1.7 (https://github.com/llvm/llvm-project 48967cc1a0d4851b01b0548932ac77b86017f053) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/27abffa3efe272d725a6c4eceeebfe8c17e0f8e8
+https://github.com/llvm/llvm-project/commit/48967cc1a0d4851b01b0548932ac77b86017f053
 
 [llvm-commit-msg]
-[lldb] New expedited register specfication for unavailable regs (#193894)
+build: adjust LLDB and clang library naming on Windows (#185084)
 
 [host-glibc]
 2.35
 
 [size]
-98Mb
+95Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260527/gf-clang-23.0.0-20260527.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260531/gf-clang-22.1.7-20260531.tar.gz
 
 [shasum]
-a76419087caade0b5f138334edc1ffb6b57dac1af9a1555ba094d28615a2cf37
+ce6d8274bef31196a097f60665e8d3f7bca46da2268d21d95f5b9627a83880ea
