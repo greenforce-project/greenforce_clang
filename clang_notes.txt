@@ -2,25 +2,25 @@
 1 June 2026
 
 [clang-ver]
-Cirrus clang version 20.1.8 (https://github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261)
+Cirrus clang version 21.1.8 (https://github.com/llvm/llvm-project 2078da43e25a4623cab2d0d60decddf709aaea28)
 
 [lld-ver]
-LLD 20.1.8 (https://github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261) (compatible with GNU linkers)
+LLD 21.1.8 (https://github.com/llvm/llvm-project 2078da43e25a4623cab2d0d60decddf709aaea28) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/87f0227cb60147a26a1eeb4fb06e3b505e9c7261
+https://github.com/llvm/llvm-project/commit/2078da43e25a4623cab2d0d60decddf709aaea28
 
 [llvm-commit-msg]
-[InstCombine] Avoid folding `select(umin(X, Y), X)` with min/max values in false arm (#143020)
+[Github] Remove use of setup-windows and install-ninja in llvm tests
 
 [host-glibc]
 2.35
 
 [size]
-39Mb
+40Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-20.1.8-20260601.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-21.1.8-20260601.tar.gz
 
 [shasum]
-ffa049dea6bd21ba881b651a9e01e97a8750bd611ed5d1a307ca5665e7b4d1fd
+0f3ffac17605b750148d31b84766e9ee1c9f53989d95776a6c3ff9ba290c8500
