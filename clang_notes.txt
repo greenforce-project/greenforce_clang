@@ -2,25 +2,25 @@
 1 June 2026
 
 [clang-ver]
-Cirrus clang version 21.1.8 (https://github.com/llvm/llvm-project 2078da43e25a4623cab2d0d60decddf709aaea28)
+Cirrus clang version 10.0.1 (https://github.com/llvm/llvm-project.git ef32c611aa214dea855364efd7ba451ec5ec3f74)
 
 [lld-ver]
-LLD 21.1.8 (https://github.com/llvm/llvm-project 2078da43e25a4623cab2d0d60decddf709aaea28) (compatible with GNU linkers)
+LLD 10.0.1 (https://github.com/llvm/llvm-project.git ef32c611aa214dea855364efd7ba451ec5ec3f74) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/2078da43e25a4623cab2d0d60decddf709aaea28
+https://github.com/llvm/llvm-project.git/commit/ef32c611aa214dea855364efd7ba451ec5ec3f74
 
 [llvm-commit-msg]
-[Github] Remove use of setup-windows and install-ninja in llvm tests
+[tests] Revert unhelpful change from d73eed42d1dc
 
 [host-glibc]
 2.35
 
 [size]
-40Mb
+44Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-21.1.8-20260601.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-10.0.1-20260601.tar.gz
 
 [shasum]
-0f3ffac17605b750148d31b84766e9ee1c9f53989d95776a6c3ff9ba290c8500
+3b9d35d5879429178307b7451e0c2b143deb6fa147e8c39563813fa1d3678dd9
