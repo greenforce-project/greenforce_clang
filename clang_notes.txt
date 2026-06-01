@@ -2,25 +2,25 @@
 1 June 2026
 
 [clang-ver]
-Cirrus clang version 13.0.1 (https://github.com/llvm/llvm-project.git 75e33f71c2dae584b13a7d1186ae0a038ba98838)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project.git f68ef5b4303de763ecf37fd57cbefc3891ee48c0)
 
 [lld-ver]
-LLD 13.0.1 (https://github.com/llvm/llvm-project.git 75e33f71c2dae584b13a7d1186ae0a038ba98838) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project.git f68ef5b4303de763ecf37fd57cbefc3891ee48c0) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/75e33f71c2dae584b13a7d1186ae0a038ba98838
+https://github.com/llvm/llvm-project.git/commit/f68ef5b4303de763ecf37fd57cbefc3891ee48c0
 
 [llvm-commit-msg]
-[X86] combineVectorHADDSUB - remove the broken HOP(x,x) merging code (PR51974)
+[clang-tidy] Fix FP/FN in cppcoreguidelines-missing-std-forward (#178651)
 
 [host-glibc]
 2.35
 
 [size]
-55Mb
+40Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-13.0.1-20260601.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-23.0.0-20260601.tar.gz
 
 [shasum]
-94b8b1749963a66e861ee96af66365ea76399eb42e9a491702971701e652cbf4
+2266235bfb525ef7c3f7a67ab257c3e71d8e685941d641059a374af0757939a3
