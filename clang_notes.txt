@@ -2,16 +2,16 @@
 1 June 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project.git f68ef5b4303de763ecf37fd57cbefc3891ee48c0)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project.git 28be1eaf755a36187c40c2e251a663f811db5d9c)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project.git f68ef5b4303de763ecf37fd57cbefc3891ee48c0) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project.git 28be1eaf755a36187c40c2e251a663f811db5d9c) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/f68ef5b4303de763ecf37fd57cbefc3891ee48c0
+https://github.com/llvm/llvm-project.git/commit/28be1eaf755a36187c40c2e251a663f811db5d9c
 
 [llvm-commit-msg]
-[clang-tidy] Fix FP/FN in cppcoreguidelines-missing-std-forward (#178651)
+[MC][COFF] Mark .debug_*.dwo sections IMAGE_SCN_LNK_REMOVE (#199616)
 
 [host-glibc]
 2.35
@@ -23,4 +23,4 @@ https://github.com/llvm/llvm-project.git/commit/f68ef5b4303de763ecf37fd57cbefc38
 https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-23.0.0-20260601.tar.gz
 
 [shasum]
-2266235bfb525ef7c3f7a67ab257c3e71d8e685941d641059a374af0757939a3
+75860d57d345ee1ac6d04466734da6bb9dfab94f9f9b21f1c0880819061f08d1
