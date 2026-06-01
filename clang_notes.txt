@@ -2,25 +2,25 @@
 1 June 2026
 
 [clang-ver]
-Cirrus clang version 10.0.1 (https://github.com/llvm/llvm-project.git ef32c611aa214dea855364efd7ba451ec5ec3f74)
+Cirrus clang version 11.1.0 (https://github.com/llvm/llvm-project.git 1fdec59bffc11ae37eb51a1b9869f0696bfd5312)
 
 [lld-ver]
-LLD 10.0.1 (https://github.com/llvm/llvm-project.git ef32c611aa214dea855364efd7ba451ec5ec3f74) (compatible with GNU linkers)
+LLD 11.1.0 (https://github.com/llvm/llvm-project.git 1fdec59bffc11ae37eb51a1b9869f0696bfd5312) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/ef32c611aa214dea855364efd7ba451ec5ec3f74
+https://github.com/llvm/llvm-project.git/commit/1fdec59bffc11ae37eb51a1b9869f0696bfd5312
 
 [llvm-commit-msg]
-[tests] Revert unhelpful change from d73eed42d1dc
+[lldb] Fix fallout caused by D89156 on 11.0.1 for MacOS
 
 [host-glibc]
 2.35
 
 [size]
-44Mb
+49Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-10.0.1-20260601.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-11.1.0-20260601.tar.gz
 
 [shasum]
-3b9d35d5879429178307b7451e0c2b143deb6fa147e8c39563813fa1d3678dd9
+8dc8e387d5db38b121a1ad244f09d4541cdb28fbc36a55948369855836514d64
