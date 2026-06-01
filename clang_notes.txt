@@ -2,25 +2,25 @@
 1 June 2026
 
 [clang-ver]
-Cirrus clang version 12.0.1 (https://github.com/llvm/llvm-project.git fed41342a82f5a3a9201819a82bf7a48313e296b)
+Cirrus clang version 13.0.1 (https://github.com/llvm/llvm-project.git 75e33f71c2dae584b13a7d1186ae0a038ba98838)
 
 [lld-ver]
-LLD 12.0.1 (https://github.com/llvm/llvm-project.git fed41342a82f5a3a9201819a82bf7a48313e296b) (compatible with GNU linkers)
+LLD 13.0.1 (https://github.com/llvm/llvm-project.git 75e33f71c2dae584b13a7d1186ae0a038ba98838) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/fed41342a82f5a3a9201819a82bf7a48313e296b
+https://github.com/llvm/llvm-project.git/commit/75e33f71c2dae584b13a7d1186ae0a038ba98838
 
 [llvm-commit-msg]
-Revert "Revert "[Coverage] Fix branch coverage merging in FunctionCoverageSummary::get() for instantiation""
+[X86] combineVectorHADDSUB - remove the broken HOP(x,x) merging code (PR51974)
 
 [host-glibc]
 2.35
 
 [size]
-52Mb
+55Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-12.0.1-20260601.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-13.0.1-20260601.tar.gz
 
 [shasum]
-6d768b4beaa0e2dd1a9c900579ea22c3d8a05150564ab1ba12c60e372b4d4a32
+94b8b1749963a66e861ee96af66365ea76399eb42e9a491702971701e652cbf4
