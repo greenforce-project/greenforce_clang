@@ -2,25 +2,25 @@
 1 June 2026
 
 [clang-ver]
-Cirrus clang version 11.1.0 (https://github.com/llvm/llvm-project.git 1fdec59bffc11ae37eb51a1b9869f0696bfd5312)
+Cirrus clang version 12.0.1 (https://github.com/llvm/llvm-project.git fed41342a82f5a3a9201819a82bf7a48313e296b)
 
 [lld-ver]
-LLD 11.1.0 (https://github.com/llvm/llvm-project.git 1fdec59bffc11ae37eb51a1b9869f0696bfd5312) (compatible with GNU linkers)
+LLD 12.0.1 (https://github.com/llvm/llvm-project.git fed41342a82f5a3a9201819a82bf7a48313e296b) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/1fdec59bffc11ae37eb51a1b9869f0696bfd5312
+https://github.com/llvm/llvm-project.git/commit/fed41342a82f5a3a9201819a82bf7a48313e296b
 
 [llvm-commit-msg]
-[lldb] Fix fallout caused by D89156 on 11.0.1 for MacOS
+Revert "Revert "[Coverage] Fix branch coverage merging in FunctionCoverageSummary::get() for instantiation""
 
 [host-glibc]
 2.35
 
 [size]
-49Mb
+52Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-11.1.0-20260601.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-12.0.1-20260601.tar.gz
 
 [shasum]
-8dc8e387d5db38b121a1ad244f09d4541cdb28fbc36a55948369855836514d64
+6d768b4beaa0e2dd1a9c900579ea22c3d8a05150564ab1ba12c60e372b4d4a32
