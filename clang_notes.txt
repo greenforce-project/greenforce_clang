@@ -1,26 +1,26 @@
 [date]
-1 June 2026
+6 June 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project.git 28be1eaf755a36187c40c2e251a663f811db5d9c)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project f1267565f55ce3a57bc17a0114a07b6a22709a16)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project.git 28be1eaf755a36187c40c2e251a663f811db5d9c) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project f1267565f55ce3a57bc17a0114a07b6a22709a16) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project.git/commit/28be1eaf755a36187c40c2e251a663f811db5d9c
+https://github.com/llvm/llvm-project/commit/f1267565f55ce3a57bc17a0114a07b6a22709a16
 
 [llvm-commit-msg]
-[MC][COFF] Mark .debug_*.dwo sections IMAGE_SCN_LNK_REMOVE (#199616)
+[OpenMP][offload] use per-type checks for multiple_reductions.cpp (#201045)
 
 [host-glibc]
 2.35
 
 [size]
-40Mb
+38Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260601/gf-clang-23.0.0-20260601.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260606/gf-clang-23.0.0-20260606.tar.gz
 
 [shasum]
-75860d57d345ee1ac6d04466734da6bb9dfab94f9f9b21f1c0880819061f08d1
+30f2495f3a08bd2b05255257925db4eb9207069de48730ff0929db28522e9b9c
