@@ -1,17 +1,17 @@
 [date]
-6 June 2026
+9 June 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project f1267565f55ce3a57bc17a0114a07b6a22709a16)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 22f266395c930b83fbbcf2e84930783d438bc0d4)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project f1267565f55ce3a57bc17a0114a07b6a22709a16) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 22f266395c930b83fbbcf2e84930783d438bc0d4) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/f1267565f55ce3a57bc17a0114a07b6a22709a16
+https://github.com/llvm/llvm-project/commit/22f266395c930b83fbbcf2e84930783d438bc0d4
 
 [llvm-commit-msg]
-[OpenMP][offload] use per-type checks for multiple_reductions.cpp (#201045)
+[ARM] Remove llvm/test/MC/COFF/ARM/lit.local.cfg. NFC (#202342)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/f1267565f55ce3a57bc17a0114a07b6a2270
 38Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260606/gf-clang-23.0.0-20260606.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260609/gf-clang-23.0.0-20260609.tar.gz
 
 [shasum]
-30f2495f3a08bd2b05255257925db4eb9207069de48730ff0929db28522e9b9c
+2b1483da3b510c7c35ef77adf4b8bde54863cd81c38fc0f815a77639b2488d69
