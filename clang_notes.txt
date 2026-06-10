@@ -1,17 +1,17 @@
 [date]
-9 June 2026
+10 June 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 22f266395c930b83fbbcf2e84930783d438bc0d4)
+Cirrus clang version 23.0.0 (https://github.com/llvm/llvm-project 04e06adc44f3c4cd7b7c62fd9d6c828cfe79eee2)
 
 [lld-ver]
-LLD 23.0.0 (https://github.com/llvm/llvm-project 22f266395c930b83fbbcf2e84930783d438bc0d4) (compatible with GNU linkers)
+LLD 23.0.0 (https://github.com/llvm/llvm-project 04e06adc44f3c4cd7b7c62fd9d6c828cfe79eee2) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/22f266395c930b83fbbcf2e84930783d438bc0d4
+https://github.com/llvm/llvm-project/commit/04e06adc44f3c4cd7b7c62fd9d6c828cfe79eee2
 
 [llvm-commit-msg]
-[ARM] Remove llvm/test/MC/COFF/ARM/lit.local.cfg. NFC (#202342)
+[flang] Support declarations scoping in FIR AA. (#201216)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/22f266395c930b83fbbcf2e84930783d438b
 38Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260609/gf-clang-23.0.0-20260609.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260610/gf-clang-23.0.0-20260610.tar.gz
 
 [shasum]
-2b1483da3b510c7c35ef77adf4b8bde54863cd81c38fc0f815a77639b2488d69
+192f1f685d917735a9a9dc93a034293cc98ae101879c1c46f2f03842de62673b
