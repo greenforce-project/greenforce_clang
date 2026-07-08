@@ -1,17 +1,17 @@
 [date]
-18 June 2026
+8 July 2026
 
 [clang-ver]
-Cirrus clang version 23.0.0 (https://android.googlesource.com/toolchain/llvm-project d65d7a15997473c4831e8486b8aaf5242aecf99e)
+Cirrus clang version 23.0.0 (https://android.googlesource.com/toolchain/llvm-project 1cefbacdaa0156880d8363b24ae04638a8fd31c8)
 
 [lld-ver]
-LLD 23.0.0 (https://android.googlesource.com/toolchain/llvm-project d65d7a15997473c4831e8486b8aaf5242aecf99e) (compatible with GNU linkers)
+LLD 23.0.0 (https://android.googlesource.com/toolchain/llvm-project 1cefbacdaa0156880d8363b24ae04638a8fd31c8) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/d65d7a15997473c4831e8486b8aaf5242aecf99e
+https://github.com/llvm/llvm-project/commit/1cefbacdaa0156880d8363b24ae04638a8fd31c8
 
 [llvm-commit-msg]
-[LifetimeSafety] Count escape facts when classifying persistent origins (#204485)
+[libc++] Replace the of use custom sections for detecting overriden functions (#175896)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/d65d7a15997473c4831e8486b8aaf5242aec
 38Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260618/gf-clang-23.0.0-20260618.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260708/gf-clang-23.0.0-20260708.tar.gz
 
 [shasum]
-ed86fc5d6b288951b3d3eebba993013d39e5d8646a97d360587fd6220e1bb902
+37c03ce98a5f56da5149140fe7e7c6d6e82bf33e33b011101b676fcb919eed56
