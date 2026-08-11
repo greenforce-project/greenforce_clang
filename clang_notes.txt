@@ -1,17 +1,17 @@
 [date]
-27 July 2026
+11 August 2026
 
 [clang-ver]
-Cirrus clang version 24.0.0 (https://github.com/llvm/llvm-project a81db64570f94c2ca8ac0f598c0b5bba1a7ae59e)
+Cirrus clang version 24.0.0 (https://github.com/llvm/llvm-project 2ad7d474a13e9c10d9d9d1046383f0e9cd7d859c)
 
 [lld-ver]
-LLD 24.0.0 (https://github.com/llvm/llvm-project a81db64570f94c2ca8ac0f598c0b5bba1a7ae59e) (compatible with GNU linkers)
+LLD 24.0.0 (https://github.com/llvm/llvm-project 2ad7d474a13e9c10d9d9d1046383f0e9cd7d859c) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/a81db64570f94c2ca8ac0f598c0b5bba1a7ae59e
+https://github.com/llvm/llvm-project/commit/2ad7d474a13e9c10d9d9d1046383f0e9cd7d859c
 
 [llvm-commit-msg]
-[libc][cpp::string] Allocate fewer temp strings in operator= and += (#210895)
+[SandboxVec][Scheduler] Fix false negatives (#211108)
 
 [host-glibc]
 2.35
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/a81db64570f94c2ca8ac0f598c0b5bba1a7a
 38Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260727/gf-clang-24.0.0-20260727.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260811/gf-clang-24.0.0-20260811.tar.gz
 
 [shasum]
-fdfad77e80cb2db42c2531da01df063d6c136b357c3c2f79915d7196c4a07b6a
+de5dbb1e757f34ce4ed185845d7e4e4e6eab57a0a31cb89adeb3949a8567453d
