@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-LATEST_URL=https://github.com/greenforce-project/greenforce_clang/releases/download/20260822/gf-clang-24.0.0-20260822.tar.gz
+LATEST_URL=https://github.com/greenforce-project/greenforce_clang/releases/download/20260829/gf-clang-24.0.0-20260829.tar.gz
