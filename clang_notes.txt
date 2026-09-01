@@ -1,26 +1,26 @@
 [date]
-29 August 2026
+1 September 2026
 
 [clang-ver]
-Cirrus clang version 24.0.0 (https://github.com/llvm/llvm-project b4e175b511207b245823dc6a17e20c17b778b980)
+Cirrus clang version 24.0.0 (https://github.com/llvm/llvm-project c1100cd94b7b89db8c0929192e80aeaea95bc30e)
 
 [lld-ver]
-LLD 24.0.0 (https://github.com/llvm/llvm-project b4e175b511207b245823dc6a17e20c17b778b980) (compatible with GNU linkers)
+LLD 24.0.0 (https://github.com/llvm/llvm-project c1100cd94b7b89db8c0929192e80aeaea95bc30e) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/b4e175b511207b245823dc6a17e20c17b778b980
+https://github.com/llvm/llvm-project/commit/c1100cd94b7b89db8c0929192e80aeaea95bc30e
 
 [llvm-commit-msg]
-[LV] Extend test coverage for bounded loads. (NFC) (#219583)
+[mlir] [linalg] Fold reduce(broadcast(x)) max/min (#213190)
 
 [host-glibc]
 2.35
 
 [size]
-38Mb
+39Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260829/gf-clang-24.0.0-20260829.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260901/gf-clang-24.0.0-20260901.tar.gz
 
 [shasum]
-8de41de6c795e652de87911f2ada3ddc7b116ebda4d1db42650664f4bdb5f4c2
+30f31fbf2969a52972474479ee0bf7acfa76d946eb1fea317e5993ebc63c3ceb
