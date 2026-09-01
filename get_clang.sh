@@ -5,11 +5,8 @@ set -Eeuo pipefail
 # Greenforce Clang Installer
 # ==========================================
 
-SCRIPT_NAME="$(basename "$0")"
 INSTALL_DIR="$(pwd)/greenforce-clang"
-LOG_FILE=""
-FORCE=0
-ASSUME_YES=0
+LOG_FILE="$(pwd)/greenforce-clang-install.log"
 MAX_RETRIES=3
 RETRY_DELAY=2
 
@@ -32,33 +29,6 @@ info(){ echo -e "${CYAN}➜${NC} $1"; }
 warn(){ echo -e "${YELLOW}⚠${NC} $1"; }
 fail(){ echo -e "${RED}✘${NC} $1" >&2; exit 1; }
 
-# ==========================================
-# Usage
-# ==========================================
-usage(){
-    cat << EOF
-Usage: $SCRIPT_NAME [options]
-
-Options:
-  -d, --dir <path>   Install directory (default: ./greenforce-clang)
-  -f, --force         Overwrite existing installation without prompting
-  -y, --yes           Assume "yes" to all prompts (non-interactive)
-  -h, --help          Show this help message
-EOF
-    exit 0
-}
-
-while [[ $# -gt 0 ]]; do
-    case "$1" in
-        -d|--dir)   INSTALL_DIR="$2"; shift 2 ;;
-        -f|--force) FORCE=1; shift ;;
-        -y|--yes)   ASSUME_YES=1; shift ;;
-        -h|--help)  usage ;;
-        *) fail "Unknown option: $1 (use --help)" ;;
-    esac
-done
-
-LOG_FILE="$(dirname "$INSTALL_DIR")/greenforce-clang-install.log"
 TMP_ARCHIVE=""
 
 # ==========================================
@@ -170,7 +140,6 @@ check_dependencies(){
 }
 
 fetch(){
-    # fetch <url> -> writes to stdout
     if [[ "$FETCH_CMD" == "wget" ]]; then
         wget -qO- "$1"
     else
@@ -179,7 +148,6 @@ fetch(){
 }
 
 fetch_with_retry(){
-    # fetch_with_retry <url> <output_file>
     local url="$1" out="$2" attempt=1
 
     while (( attempt <= MAX_RETRIES )); do
@@ -204,10 +172,7 @@ prepare_directory(){
     step "Preparing installation directory"
 
     if [[ -d "$INSTALL_DIR" ]]; then
-        if [[ $FORCE -eq 0 && $ASSUME_YES -eq 0 ]]; then
-            read -r -p "Existing installation found at $INSTALL_DIR. Remove it? [y/N] " reply
-            [[ "$reply" =~ ^[Yy]$ ]] || fail "Aborted by user"
-        fi
+        warn "Existing installation found"
         rm -rf "$INSTALL_DIR"
         ok "Old installation removed"
     fi
@@ -255,7 +220,6 @@ download_extract(){
     ok "Download completed (${size})"
     echo
 
-    # Best-effort checksum verification, if the project publishes one
     local sums_url="${LATEST_URL}.sha256"
     if fetch "$sums_url" > /tmp/greenforce_sha256_check 2>/dev/null && [[ -s /tmp/greenforce_sha256_check ]]; then
         info "Verifying checksum..."
@@ -304,14 +268,6 @@ verify(){
 # ==========================================
 # PATH
 # ==========================================
-detect_rc_file(){
-    case "${SHELL:-}" in
-        */zsh)  echo "$HOME/.zshrc" ;;
-        */bash) echo "$HOME/.bashrc" ;;
-        *)      echo "" ;;
-    esac
-}
-
 setup_path(){
     step "Updating PATH"
 
@@ -321,35 +277,6 @@ setup_path(){
         ok "clang available in current shell"
     else
         warn "clang not detected in PATH"
-    fi
-    echo
-
-    local rc_file; rc_file=$(detect_rc_file)
-    local path_line="export PATH=\"$INSTALL_DIR/bin:\$PATH\""
-
-    if [[ -n "$rc_file" ]]; then
-        if [[ -f "$rc_file" ]] && grep -qF "$INSTALL_DIR/bin" "$rc_file" 2>/dev/null; then
-            info "PATH entry already present in $rc_file"
-        else
-            local add_it=$ASSUME_YES
-            if [[ $ASSUME_YES -eq 0 ]]; then
-                read -r -p "Add clang to PATH permanently in $rc_file? [y/N] " reply
-                [[ "$reply" =~ ^[Yy]$ ]] && add_it=1
-            fi
-
-            if [[ "$add_it" -eq 1 ]]; then
-                {
-                    echo ""
-                    echo "# Added by Greenforce Clang Installer"
-                    echo "$path_line"
-                } >> "$rc_file"
-                ok "PATH entry added to $rc_file"
-            else
-                info "Skipped — add manually if needed"
-            fi
-        fi
-    else
-        warn "Could not detect shell rc file, add PATH manually"
     fi
     echo
 }
@@ -368,11 +295,12 @@ summary(){
     echo -e "  ${BOLD}Clang binary${NC} : $INSTALL_DIR/bin/clang"
     echo -e "  ${BOLD}Version${NC}      : $CLANG_VERSION"
     echo
-    echo -e "  ${BOLD}Add to PATH (if not done automatically):${NC}"
+    echo -e "  ${BOLD}PATH:${NC}"
     echo "    export PATH=\"$INSTALL_DIR/bin:\$PATH\""
     echo
-    echo -e "  ${YELLOW}Note:${NC} PATH change in this shell is temporary unless"
-    echo "        added to your shell rc file."
+    echo -e "  ${YELLOW}Note:${NC}"
+    echo "  - PATH applies only to current shell."
+    echo "  - Add it to ~/.bashrc or ~/.zshrc for permanent use."
     echo
 }
 
