@@ -1,5 +1,5 @@
 [date]
-19 September 2026
+26 September 2026
 
 [clang-ver]
 Cirrus clang version 24.0.0 (https://github.com/llvm/llvm-project c1100cd94b7b89db8c0929192e80aeaea95bc30e)
@@ -20,7 +20,7 @@ https://github.com/llvm/llvm-project/commit/c1100cd94b7b89db8c0929192e80aeaea95b
 39Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20260919/gf-clang-24.0.0-20260919.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20260926/gf-clang-24.0.0-20260926.tar.gz
 
 [shasum]
-6d7d08c64e8a34a9f475818b47900f980f159a947b61d0fda49ed31753e33299
+384062912e5a1ce19168c27f5bdfb685d8e739cdfeede33f99881f0eb4ccb137
