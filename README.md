@@ -11,7 +11,7 @@ This toolchain is built on Ubuntu using the default `glibc` version. Compatibili
 To install and initialize Gf Clang on your server, run the following command:
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/greenforce-project/greenforce_clang/refs/heads/main/get_clang.sh)
+python3 <(wget -qO- https://raw.githubusercontent.com/greenforce-project/greenforce_clang/refs/heads/main/gfclang.py)
 ```
 
 Ensure the toolchain is included in your PATH:
