@@ -1,26 +1,26 @@
 [date]
-17 October 2026
+24 October 2026
 
 [clang-ver]
-Cirrus clang version 24.0.0 (https://github.com/llvm/llvm-project 015c205e01138984c9c46a92d5584eee426c4299)
+Cirrus clang version 24.0.0 (https://github.com/llvm/llvm-project bb87bbedb513c7cc9f3a8c058adc00154181cca1)
 
 [lld-ver]
-LLD 24.0.0 (https://github.com/llvm/llvm-project 015c205e01138984c9c46a92d5584eee426c4299) (compatible with GNU linkers)
+LLD 24.0.0 (https://github.com/llvm/llvm-project bb87bbedb513c7cc9f3a8c058adc00154181cca1) (compatible with GNU linkers)
 
 [llvm-commit]
-https://github.com/llvm/llvm-project/commit/015c205e01138984c9c46a92d5584eee426c4299
+https://github.com/llvm/llvm-project/commit/bb87bbedb513c7cc9f3a8c058adc00154181cca1
 
 [llvm-commit-msg]
-[CIR] Fix vector splat for SVE vector arithmetic (#232896)
+[IndVars] Synthesize profile information for urem->select folding (#231990)
 
 [host-glibc]
 2.35
 
 [size]
-40Mb
+43Mb
 
 [link-rel]
-https://github.com/greenforce-project/greenforce_clang/releases/download/20261017/gf-clang-24.0.0-20261017.tar.gz
+https://github.com/greenforce-project/greenforce_clang/releases/download/20261024/gf-clang-24.0.0-20261024.tar.gz
 
 [shasum]
-ee67ec23182570f7b4a083453a7ac8479498ed6470f2ae5a1473d9711e1a9b38
+dfed7dfb23b08d1fbad4438964f9d409bc53d1722f86be85a4496b213b0eafbe
